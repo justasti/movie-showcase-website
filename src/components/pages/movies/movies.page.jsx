@@ -1,14 +1,14 @@
 import { useContext, useState } from 'react'
+import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { MovieCard, SkeletonLoader, Input } from '../../'
 import { StyledMain, Movies } from './movies-page.styles'
 import ThemeContext from '../../../contexts/theme/theme.context'
-import MoviesContext from '../../../contexts/movies/movies.context'
 import UsersContext from '../../../contexts/users/users.context'
 
 const MoviesPage = () => {
   const [filterPhrase, setFilterPhrase] = useState('')
-  const { movies } = useContext(MoviesContext)
+  const { movies } = useSelector((state) => state.movies)
   const {
     users: { authUser, users },
   } = useContext(UsersContext)

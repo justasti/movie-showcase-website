@@ -1,5 +1,10 @@
 import { useEffect, useState, useContext } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
+import {
+  updateMovieWithComments,
+  deleteMovie,
+} from '../../../../features/movies/movies.slice'
 import { MovieInfoContainer, StyledMain } from './movie-info.styles'
 import {
   SkeletonLoader,
@@ -7,37 +12,35 @@ import {
   CommentBox,
   CommentsContainer,
 } from '../../../'
-import { MOVIES_ACTION_TYPES } from '../../../../contexts/movies/movies.actions'
-import MoviesContext from '../../../../contexts/movies/movies.context'
+import { nanoid } from 'nanoid'
 import ThemeContext from '../../../../contexts/theme/theme.context'
 import UsersContext from '../../../../contexts/users/users.context'
-import { nanoid } from 'nanoid'
 
 const MovieInfoPage = () => {
   const navigate = useNavigate()
+  const dispatch = useDispatch()
   const [movie, setMovie] = useState(null)
   const [movieNotFound, setMovieNotFound] = useState(false)
   const [comment, setComment] = useState('')
   const { id } = useParams()
-  const { dispatchMovies } = useContext(MoviesContext)
   const {
     users: { authUser },
   } = useContext(UsersContext)
   const { theme } = useContext(ThemeContext)
-  const { movies } = useContext(MoviesContext)
+  const { movies } = useSelector((state) => state.movies)
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    dispatchMovies({
-      type: MOVIES_ACTION_TYPES.ADD_COMMENT,
-      movieId: movie.id,
-      comment: {
-        id: nanoid(),
-        userId: authUser.id,
-        comment,
-        ratings: [],
-      },
-    })
+
+    const newComment = {
+      id: nanoid(),
+      userId: authUser.id,
+      comment,
+      ratings: [],
+    }
+    const updatedMovie = { ...movie, comments: [...movie.comments, newComment] }
+    dispatch(updateMovieWithComments(updatedMovie))
+
     setComment('')
   }
 
@@ -99,10 +102,7 @@ const MovieInfoPage = () => {
                   <Button
                     $danger
                     onClick={() => {
-                      dispatchMovies({
-                        type: MOVIES_ACTION_TYPES.DELETE,
-                        movieId: id,
-                      })
+                      dispatch(deleteMovie(movie.id))
                       navigate('/movies')
                     }}
                   >

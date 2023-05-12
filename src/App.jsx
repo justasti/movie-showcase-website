@@ -1,9 +1,7 @@
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import { Layout } from './layout.styles'
 import { useContext, useEffect } from 'react'
-import { MOVIES_ACTION_TYPES } from './contexts/movies/movies.actions'
 import { USERS_ACTION_TYPES } from './contexts/users/users.actions'
-import { MOVIES_API_URL } from './contexts/movies/movies.reducer'
 import { USERS_API_URL } from './contexts/users/users.reducer'
 import {
   Header,
@@ -24,23 +22,20 @@ import {
 } from './components/'
 import UsersContext from './contexts/users/users.context'
 import ThemeContext from './contexts/theme/theme.context'
-import MoviesContext from './contexts/movies/movies.context'
+import { useDispatch } from 'react-redux'
+import { fetchMovies } from './features/movies/movies.slice'
 
 function App() {
+  const dispatch = useDispatch()
   const location = useLocation()
   const {
     users: { authUser },
     dispatchUsers,
   } = useContext(UsersContext)
-  const { dispatchMovies } = useContext(MoviesContext)
   const { theme } = useContext(ThemeContext)
 
   useEffect(() => {
-    fetch(MOVIES_API_URL)
-      .then((res) => res.json())
-      .then((movies) =>
-        dispatchMovies({ type: MOVIES_ACTION_TYPES.GET, movies })
-      )
+    dispatch(fetchMovies())
     fetch(USERS_API_URL)
       .then((res) => res.json())
       .then((users) => dispatchUsers({ type: USERS_ACTION_TYPES.GET, users }))

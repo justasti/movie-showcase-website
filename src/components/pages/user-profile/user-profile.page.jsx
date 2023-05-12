@@ -1,16 +1,16 @@
 import { useContext, useEffect, useState } from 'react'
+import { useSelector } from 'react-redux'
 import { Link, useParams, Navigate } from 'react-router-dom'
 import { SkeletonLoader, Button, MovieCard } from '../../'
 import { StyledMain, UserProfileHeader } from './user-profile.styles'
 import { Movies } from '../movies/movies-page.styles'
-import MoviesContext from '../../../contexts/movies/movies.context'
 import ThemeContext from '../../../contexts/theme/theme.context'
 import UsersContext from '../../../contexts/users/users.context'
 
 const UserProfilePage = () => {
   const [user, setUser] = useState(null)
   const [userNotFound, setUserNotFound] = useState(false)
-  const { movies } = useContext(MoviesContext)
+  const { movies } = useSelector((state) => state.movies)
   const { theme } = useContext(ThemeContext)
   const { id } = useParams()
   const {

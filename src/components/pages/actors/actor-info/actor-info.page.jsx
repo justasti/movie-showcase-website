@@ -1,16 +1,16 @@
 import { useEffect, useState, useContext } from 'react'
+import { useSelector } from 'react-redux'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { SkeletonLoader, MovieCard } from '../../../'
 import { Movies } from '../../movies/movies-page.styles'
 import { StyledMain } from './actor-info.styles'
 import ThemeContext from '../../../../contexts/theme/theme.context'
-import MoviesContext from '../../../../contexts/movies/movies.context'
 
 const ActorInfoPage = () => {
   const [actorMovies, setActorMovies] = useState([])
   const [actorNotFound, setActorNotFound] = useState(false)
   const { name } = useParams()
-  const { movies } = useContext(MoviesContext)
+  const { movies } = useSelector((state) => state.movies)
   const { theme } = useContext(ThemeContext)
 
   useEffect(() => {

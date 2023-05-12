@@ -1,15 +1,15 @@
 import { useEffect, useState, useContext } from 'react'
+import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { SkeletonLoader, Input } from '../../'
 import { ActorsList, StyledMain } from './actors-page.styles'
-import MoviesContext from '../../../contexts/movies/movies.context'
 import ThemeContext from '../../../contexts/theme/theme.context'
 
 const ActorsPage = () => {
   const [actors, setActors] = useState([])
   const [filterPhrase, setFilterPhrase] = useState('')
   const { theme } = useContext(ThemeContext)
-  const { movies } = useContext(MoviesContext)
+  const { movies } = useSelector((state) => state.movies)
 
   const filterActors = (e) => {
     setFilterPhrase(e.target.value)

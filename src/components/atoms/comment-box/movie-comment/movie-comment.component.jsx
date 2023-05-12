@@ -2,18 +2,22 @@ import { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from '../../../'
 import { StyledMovieComment } from './movie-comment.styles'
-import { MOVIES_ACTION_TYPES } from '../../../../contexts/movies/movies.actions'
 import UsersContext from '../../../../contexts/users/users.context'
 import ThemeContext from '../../../../contexts/theme/theme.context'
-import MoviesContext from '../../../../contexts/movies/movies.context'
+import { useDispatch } from 'react-redux'
+import { updateMovieWithComments } from '../../../../features/movies/movies.slice'
+
 const MovieComment = ({ comment, movie }) => {
   const [editing, setEditing] = useState(false)
   const [commentValue, setCommentValue] = useState(comment?.comment || '')
+
   const {
     users: { users, authUser },
   } = useContext(UsersContext)
   const { theme } = useContext(ThemeContext)
-  const { dispatchMovies } = useContext(MoviesContext)
+
+  const dispatch = useDispatch()
+
   const user = users?.find((user) => user.id === comment.userId)
 
   const userVote = comment.ratings.find(
@@ -27,39 +31,48 @@ const MovieComment = ({ comment, movie }) => {
 
   const saveEdit = () => {
     setEditing(false)
-    dispatchMovies({
-      type: MOVIES_ACTION_TYPES.EDIT_COMMENT,
-      comment: { ...comment, comment: commentValue },
-      movieId: movie.id,
-    })
+    const updatedComments = movie.comments.map((com) =>
+      com.id === comment.id ? { ...com, comment: commentValue } : com
+    )
+    const updatedMovie = { ...movie, comments: updatedComments }
+    dispatch(updateMovieWithComments(updatedMovie))
   }
 
   const deleteComment = () => {
-    dispatchMovies({
-      type: MOVIES_ACTION_TYPES.DELETE_COMMENT,
-      commentId: comment.id,
-      movieId: movie.id,
-    })
+    const updatedComments = movie.comments.filter(
+      (com) => com.id !== comment.id
+    )
+    const updatedMovie = { ...movie, comments: updatedComments }
+    dispatch(updateMovieWithComments(updatedMovie))
   }
 
   const rateComment = (mark) => {
     let newRating
+    let ratings
+
     if (userVote?.rating === mark) newRating = 0
     else newRating = mark
+
     if (
       !comment.ratings.length ||
       !comment.ratings.map((rating) => rating.userId).includes(authUser.id)
+    ) {
+      ratings = [{ userId: authUser.id, rating: mark }]
+    } else {
+      ratings = comment.ratings.map((rating) =>
+        rating.userId === authUser.id
+          ? { ...rating, rating: newRating }
+          : rating
+      )
+    }
+
+    const updatedComment = { ...comment, ratings }
+    const updatedComments = movie.comments.map((com) =>
+      com.id === comment.id ? updatedComment : com
     )
-      comment.ratings.push({ userId: authUser.id, rating: newRating })
-    const updatedCommentRatings = comment.ratings.map((rating) =>
-      rating.userId === authUser.id ? { ...rating, rating: newRating } : rating
-    )
-    dispatchMovies({
-      type: MOVIES_ACTION_TYPES.EDIT_RATING,
-      movieId: movie.id,
-      commentId: comment.id,
-      ratings: updatedCommentRatings,
-    })
+    const updatedMovie = { ...movie, comments: updatedComments }
+
+    dispatch(updateMovieWithComments(updatedMovie))
   }
 
   return (

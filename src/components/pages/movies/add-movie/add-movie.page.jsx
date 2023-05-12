@@ -1,15 +1,19 @@
 import { useState, useContext, useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Form, InputGroup, Button } from '../../../'
 import { nanoid } from 'nanoid'
 import { StyledMain } from './add-movie-page.styles'
-import { MOVIES_ACTION_TYPES } from '../../../../contexts/movies/movies.actions'
-import MoviesContext from '../../../../contexts/movies/movies.context'
 import ThemeContext from '../../../../contexts/theme/theme.context'
 import UsersContext from '../../../../contexts/users/users.context'
+import {
+  addNewMovie,
+  editMovie,
+} from '../../../../features/movies/movies.slice'
 
 const AddMoviePage = () => {
   const navigate = useNavigate()
+  const dispatch = useDispatch()
   const [formInputs, setFormInputs] = useState({
     title: '',
     year: '',
@@ -21,12 +25,11 @@ const AddMoviePage = () => {
     posterUrl: '',
   })
   const { id } = useParams()
-  const { dispatchMovies } = useContext(MoviesContext)
   const {
     users: { authUser },
   } = useContext(UsersContext)
   const { theme } = useContext(ThemeContext)
-  const { movies } = useContext(MoviesContext)
+  const { movies } = useSelector((state) => state.movies)
 
   useEffect(() => {
     if (id) {
@@ -63,10 +66,11 @@ const AddMoviePage = () => {
       actors: formInputs.actors.split(',').map((actor) => actor.trim()),
       createdBy: authUser.id,
     }
-    dispatchMovies({
-      type: id ? MOVIES_ACTION_TYPES.EDIT : MOVIES_ACTION_TYPES.ADD,
-      movie,
-    })
+    // dispatchMovies({
+    //   type: id ? MOVIES_ACTION_TYPES.EDIT : MOVIES_ACTION_TYPES.ADD,
+    //   movie,
+    // })
+    dispatch(id ? editMovie(movie) : addNewMovie(movie))
     navigate(-1)
   }
 

@@ -5,10 +5,7 @@
       "title": "Beetlejuice",
       "year": "1988",
       "runtime": "92",
-      "genres": [
-        "Comedy",
-        "Fantasy"
-      ],
+      "genres": ["Comedy", "Fantasy"],
       "director": "Tim Burton",
       "actors": [
         "Alec Baldwin",
@@ -21,48 +18,28 @@
       "createdBy": "RYC1FpLol3onriOBZSjLv",
       "comments": [
         {
+          "comment": "A good hockey player plays where the puck is. A great hockey player plays where the puck is going to be.",
+          "id": "UewySvBMz_jkP-Tb4-wZJ",
+          "userId": "NfWH7w9oTOwwcavZNO_x0",
+          "ratings": []
+        },
+        {
           "comment": "What is past is left behind. The future is yet unreached. Whatever quality is present, clearly see it right there.",
           "id": "_wlbiwDo68hPvQlZD6ev4",
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
-          "ratings": [
-            {
-              "userId": "vvxUePrlqsQh2EouNuwsz",
-              "rating": -1
-            }
-          ]
+          "ratings": []
         },
         {
           "comment": "The difference between what we do and what we are capable of doing would suffice to solve most of the world's problems.",
           "id": "GaVuBaSdn2GSnk_dGxNwH",
           "userId": "91QwlyO420OEI7uf3qp55",
-          "ratings": [
-            {
-              "userId": "vvxUePrlqsQh2EouNuwsz",
-              "rating": -1
-            }
-          ]
+          "ratings": []
         },
         {
           "id": "H6Gs2Y9CqQ8D5BJlD6KHI",
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "comment": "Pirmas tikras komentaras. Valio! O dabar pakoreguotas ir išsaugotas API! Yaaay",
-          "ratings": [
-            {
-              "userId": "vvxUePrlqsQh2EouNuwsz",
-              "rating": 1
-            }
-          ]
-        },
-        {
-          "id": "s8bYQtwWyOl2eA3jwpSH3",
-          "userId": "vvxUePrlqsQh2EouNuwsz",
-          "comment": "Bandau Redux, tikiuosi veikia. Kaip gi dabar bus? Pridet prideda, o redaguot?",
-          "ratings": [
-            {
-              "userId": "vvxUePrlqsQh2EouNuwsz",
-              "rating": 0
-            }
-          ]
+          "ratings": []
         }
       ],
       "ratings": []
@@ -72,11 +49,7 @@
       "title": "The Cotton Club",
       "year": "1984",
       "runtime": "127",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Music"
-      ],
+      "genres": ["Crime", "Drama", "Music"],
       "director": "Francis Ford Coppola",
       "actors": [
         "Richard Gere",
@@ -156,10 +129,7 @@
       "title": "The Shawshank Redemption",
       "year": "1994",
       "runtime": "142",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Frank Darabont",
       "actors": [
         "Tim Robbins",
@@ -209,10 +179,7 @@
       "title": "Crocodile Dundee",
       "year": "1986",
       "runtime": "97",
-      "genres": [
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Adventure", "Comedy"],
       "director": "Peter Faiman",
       "actors": [
         "Paul Hogan",
@@ -261,11 +228,7 @@
       "title": "Valkyrie",
       "year": "2008",
       "runtime": "121",
-      "genres": [
-        "Drama",
-        "History",
-        "Thriller"
-      ],
+      "genres": ["Drama", "History", "Thriller"],
       "director": "Bryan Singer",
       "actors": [
         "Tom Cruise",
@@ -315,18 +278,9 @@
       "title": "Ratatouille",
       "year": "2007",
       "runtime": "111",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Family"
-      ],
+      "genres": ["Animation", "Comedy", "Family"],
       "director": "Brad Bird, Jan Pinkava",
-      "actors": [
-        "Patton Oswalt",
-        "Ian Holm",
-        "Lou Romano",
-        "Brian Dennehy"
-      ],
+      "actors": ["Patton Oswalt", "Ian Holm", "Lou Romano", "Brian Dennehy"],
       "plot": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg",
       "createdBy": "aYcm82JjDayUH7saD2NKz",
@@ -335,12 +289,7 @@
           "comment": "Our lives are the only meaningful expression of what we believe and in Whom we believe. And the only real wealth, for any of us, lies in our faith.",
           "id": "U7A5JOMJAGz_JRhRIiSoE",
           "userId": "RYC1FpLol3onriOBZSjLv",
-          "ratings": [
-            {
-              "userId": "vvxUePrlqsQh2EouNuwsz",
-              "rating": 0
-            }
-          ]
+          "ratings": []
         },
         {
           "comment": "Know that although in the eternal scheme of things you are small, you are also unique and irreplaceable, as are all your fellow humans everywhere in the world.",
@@ -362,10 +311,7 @@
       "title": "City of God",
       "year": "2002",
       "runtime": "130",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Fernando Meirelles, Kátia Lund",
       "actors": [
         "Alexandre Rodrigues",
@@ -415,10 +361,7 @@
       "title": "Memento",
       "year": "2000",
       "runtime": "113",
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Mystery", "Thriller"],
       "director": "Christopher Nolan",
       "actors": [
         "Guy Pearce",
@@ -468,18 +411,9 @@
       "title": "The Intouchables",
       "year": "2011",
       "runtime": "112",
-      "genres": [
-        "Biography",
-        "Comedy",
-        "Drama"
-      ],
+      "genres": ["Biography", "Comedy", "Drama"],
       "director": "Olivier Nakache, Eric Toledano",
-      "actors": [
-        "François Cluzet",
-        "Omar Sy",
-        "Anne Le Ny",
-        "Audrey Fleurot"
-      ],
+      "actors": ["François Cluzet", "Omar Sy", "Anne Le Ny", "Audrey Fleurot"],
       "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
       "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_SX300.jpg",
       "createdBy": "RYC1FpLol3onriOBZSjLv",
@@ -516,11 +450,7 @@
       "title": "Stardust",
       "year": "2007",
       "runtime": "127",
-      "genres": [
-        "Adventure",
-        "Family",
-        "Fantasy"
-      ],
+      "genres": ["Adventure", "Family", "Fantasy"],
       "director": "Matthew Vaughn",
       "actors": [
         "Ian McKellen",
@@ -558,11 +488,7 @@
       "title": "Apocalypto",
       "year": "2006",
       "runtime": "139",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
+      "genres": ["Action", "Adventure", "Drama"],
       "director": "Mel Gibson",
       "actors": [
         "Rudy Youngblood",
@@ -605,6 +531,12 @@
           "ratings": []
         },
         {
+          "comment": "The path to success is to take massive, determined action.",
+          "id": "hJQVK35r8AbYVtLJVH6WJ",
+          "userId": "RYC1FpLol3onriOBZSjLv",
+          "ratings": []
+        },
+        {
           "comment": "What wisdom can you find that is greater than kindness?",
           "id": "rqyiLB1sFiqvWSFUkFhcE",
           "userId": "aYcm82JjDayUH7saD2NKz",
@@ -618,17 +550,9 @@
       "title": "Taxi Driver",
       "year": "1976",
       "runtime": "113",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Martin Scorsese",
-      "actors": [
-        "Diahnne Abbott",
-        "Frank Adu",
-        "Victor Argo",
-        "Gino Ardito"
-      ],
+      "actors": ["Diahnne Abbott", "Frank Adu", "Victor Argo", "Gino Ardito"],
       "plot": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
       "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "createdBy": "aYcm82JjDayUH7saD2NKz",
@@ -695,11 +619,7 @@
       "title": "No Country for Old Men",
       "year": "2007",
       "runtime": "122",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Crime", "Drama", "Thriller"],
       "director": "Ethan Coen, Joel Coen",
       "actors": [
         "Tommy Lee Jones",
@@ -731,11 +651,7 @@
       "title": "Planet 51",
       "year": "2009",
       "runtime": "91",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Animation", "Adventure", "Comedy"],
       "director": "Jorge Blanco, Javier Abad, Marcos Martínez",
       "actors": [
         "Jessica Biel",
@@ -779,11 +695,7 @@
       "title": "Looper",
       "year": "2012",
       "runtime": "119",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Action", "Crime", "Drama"],
       "director": "Rian Johnson",
       "actors": [
         "Joseph Gordon-Levitt",
@@ -827,11 +739,7 @@
       "title": "Corpse Bride",
       "year": "2005",
       "runtime": "77",
-      "genres": [
-        "Animation",
-        "Drama",
-        "Family"
-      ],
+      "genres": ["Animation", "Drama", "Family"],
       "director": "Tim Burton, Mike Johnson",
       "actors": [
         "Johnny Depp",
@@ -904,11 +812,7 @@
       "title": "The Third Man",
       "year": "1949",
       "runtime": "93",
-      "genres": [
-        "Film-Noir",
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Film-Noir", "Mystery", "Thriller"],
       "director": "Carol Reed",
       "actors": [
         "Joseph Cotten",
@@ -940,11 +844,7 @@
       "title": "The Beach",
       "year": "2000",
       "runtime": "119",
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Adventure", "Drama", "Romance"],
       "director": "Danny Boyle",
       "actors": [
         "Leonardo DiCaprio",
@@ -1018,10 +918,7 @@
       "title": "Scarface",
       "year": "1983",
       "runtime": "170",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Brian De Palma",
       "actors": [
         "Al Pacino",
@@ -1059,18 +956,9 @@
       "title": "Sid and Nancy",
       "year": "1986",
       "runtime": "112",
-      "genres": [
-        "Biography",
-        "Drama",
-        "Music"
-      ],
+      "genres": ["Biography", "Drama", "Music"],
       "director": "Alex Cox",
-      "actors": [
-        "Gary Oldman",
-        "Chloe Webb",
-        "David Hayman",
-        "Debby Bishop"
-      ],
+      "actors": ["Gary Oldman", "Chloe Webb", "David Hayman", "Debby Bishop"],
       "plot": "Morbid biographical story of Sid Vicious, bassist with British punk group the Sex Pistols, and his girlfriend Nancy Spungen. When the Sex Pistols break up after their fateful US tour, ...",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjExNjA5NzY4M15BMl5BanBnXkFtZTcwNjQ2NzI5NA@@._V1_SX300.jpg",
       "createdBy": "91QwlyO420OEI7uf3qp55",
@@ -1143,10 +1031,7 @@
       "title": "Black Swan",
       "year": "2010",
       "runtime": "108",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Drama", "Thriller"],
       "director": "Darren Aronofsky",
       "actors": [
         "Natalie Portman",
@@ -1202,11 +1087,7 @@
       "title": "Inception",
       "year": "2010",
       "runtime": "148",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
+      "genres": ["Action", "Adventure", "Sci-Fi"],
       "director": "Christopher Nolan",
       "actors": [
         "Leonardo DiCaprio",
@@ -1268,10 +1149,7 @@
       "title": "The Deer Hunter",
       "year": "1978",
       "runtime": "183",
-      "genres": [
-        "Drama",
-        "War"
-      ],
+      "genres": ["Drama", "War"],
       "director": "Michael Cimino",
       "actors": [
         "Robert De Niro",
@@ -1321,18 +1199,9 @@
       "title": "Chasing Amy",
       "year": "1997",
       "runtime": "114",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Comedy", "Drama", "Romance"],
       "director": "Kevin Smith",
-      "actors": [
-        "Ethan Suplee",
-        "Ben Affleck",
-        "Scott Mosier",
-        "Jason Lee"
-      ],
+      "actors": ["Ethan Suplee", "Ben Affleck", "Scott Mosier", "Jason Lee"],
       "plot": "Holden and Banky are comic book artists. Everything's going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's gay.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDM3MTg2MGUtZDM0MC00NzMwLWE5NjItOWFjNjA2M2I4YzgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
       "createdBy": "RYC1FpLol3onriOBZSjLv",
@@ -1381,10 +1250,7 @@
       "title": "Django Unchained",
       "year": "2012",
       "runtime": "165",
-      "genres": [
-        "Drama",
-        "Western"
-      ],
+      "genres": ["Drama", "Western"],
       "director": "Quentin Tarantino",
       "actors": [
         "Jamie Foxx",
@@ -1428,11 +1294,7 @@
       "title": "The Silence of the Lambs",
       "year": "1991",
       "runtime": "118",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Crime", "Drama", "Thriller"],
       "director": "Jonathan Demme",
       "actors": [
         "Jodie Foster",
@@ -1482,10 +1344,7 @@
       "title": "American Beauty",
       "year": "1999",
       "runtime": "122",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Drama", "Romance"],
       "director": "Sam Mendes",
       "actors": [
         "Kevin Spacey",
@@ -1511,10 +1370,7 @@
       "title": "Snatch",
       "year": "2000",
       "runtime": "102",
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
+      "genres": ["Comedy", "Crime"],
       "director": "Guy Ritchie",
       "actors": [
         "Benicio Del Toro",
@@ -1552,11 +1408,7 @@
       "title": "Midnight Express",
       "year": "1978",
       "runtime": "121",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Crime", "Drama", "Thriller"],
       "director": "Alan Parker",
       "actors": [
         "Brad Davis",
@@ -1630,10 +1482,7 @@
       "title": "Pulp Fiction",
       "year": "1994",
       "runtime": "154",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Quentin Tarantino",
       "actors": [
         "Tim Roth",
@@ -1671,10 +1520,7 @@
       "title": "Lock, Stock and Two Smoking Barrels",
       "year": "1998",
       "runtime": "107",
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
+      "genres": ["Comedy", "Crime"],
       "director": "Guy Ritchie",
       "actors": [
         "Jason Flemyng",
@@ -1724,18 +1570,9 @@
       "title": "Lucky Number Slevin",
       "year": "2006",
       "runtime": "110",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
+      "genres": ["Crime", "Drama", "Mystery"],
       "director": "Paul McGuigan",
-      "actors": [
-        "Josh Hartnett",
-        "Bruce Willis",
-        "Lucy Liu",
-        "Morgan Freeman"
-      ],
+      "actors": ["Josh Hartnett", "Bruce Willis", "Lucy Liu", "Morgan Freeman"],
       "plot": "A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.",
       "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjczMWI1YWMtYTZjOS00ZDc5LWE2MWItMTY3ZGUxNzFkNjJmL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "createdBy": "RYC1FpLol3onriOBZSjLv",
@@ -1760,10 +1597,7 @@
       "title": "Rear Window",
       "year": "1954",
       "runtime": "112",
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Mystery", "Thriller"],
       "director": "Alfred Hitchcock",
       "actors": [
         "James Stewart",
@@ -1807,18 +1641,9 @@
       "title": "Pan's Labyrinth",
       "year": "2006",
       "runtime": "118",
-      "genres": [
-        "Drama",
-        "Fantasy",
-        "War"
-      ],
+      "genres": ["Drama", "Fantasy", "War"],
       "director": "Guillermo del Toro",
-      "actors": [
-        "Ivana Baquero",
-        "Sergi López",
-        "Maribel Verdú",
-        "Doug Jones"
-      ],
+      "actors": ["Ivana Baquero", "Sergi López", "Maribel Verdú", "Doug Jones"],
       "plot": "In the falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.",
       "posterUrl": "https://m.media-amazon.com/images/I/91+c2Ep2DML._AC_UF894,1000_QL80_.jpg",
       "createdBy": "RYC1FpLol3onriOBZSjLv",
@@ -1855,10 +1680,7 @@
       "title": "Shutter Island",
       "year": "2010",
       "runtime": "138",
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Mystery", "Thriller"],
       "director": "Martin Scorsese",
       "actors": [
         "Leonardo DiCaprio",
@@ -1914,18 +1736,9 @@
       "title": "Reservoir Dogs",
       "year": "1992",
       "runtime": "99",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Crime", "Drama", "Thriller"],
       "director": "Quentin Tarantino",
-      "actors": [
-        "Harvey Keitel",
-        "Tim Roth",
-        "Michael Madsen",
-        "Chris Penn"
-      ],
+      "actors": ["Harvey Keitel", "Tim Roth", "Michael Madsen", "Chris Penn"],
       "plot": "After a simple jewelry heist goes terribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjE5ZDJiZTQtOGE2YS00ZTc5LTk0OGUtOTg2NjdjZmVlYzE2XkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_SX300.jpg",
       "createdBy": "vvxUePrlqsQh2EouNuwsz",
@@ -1980,10 +1793,7 @@
       "title": "The Shining",
       "year": "1980",
       "runtime": "146",
-      "genres": [
-        "Drama",
-        "Horror"
-      ],
+      "genres": ["Drama", "Horror"],
       "director": "Stanley Kubrick",
       "actors": [
         "Jack Nicholson",
@@ -2021,11 +1831,7 @@
       "title": "Midnight in Paris",
       "year": "2011",
       "runtime": "94",
-      "genres": [
-        "Comedy",
-        "Fantasy",
-        "Romance"
-      ],
+      "genres": ["Comedy", "Fantasy", "Romance"],
       "director": "Woody Allen",
       "actors": [
         "Owen Wilson",
@@ -2057,11 +1863,7 @@
       "title": "Les Misérables",
       "year": "2012",
       "runtime": "158",
-      "genres": [
-        "Drama",
-        "Musical",
-        "Romance"
-      ],
+      "genres": ["Drama", "Musical", "Romance"],
       "director": "Tom Hooper",
       "actors": [
         "Hugh Jackman",
@@ -2099,11 +1901,7 @@
       "title": "L.A. Confidential",
       "year": "1997",
       "runtime": "138",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
+      "genres": ["Crime", "Drama", "Mystery"],
       "director": "Curtis Hanson",
       "actors": [
         "Kevin Spacey",
@@ -2171,11 +1969,7 @@
       "title": "Moneyball",
       "year": "2011",
       "runtime": "133",
-      "genres": [
-        "Biography",
-        "Drama",
-        "Sport"
-      ],
+      "genres": ["Biography", "Drama", "Sport"],
       "director": "Bennett Miller",
       "actors": [
         "Brad Pitt",
@@ -2207,9 +2001,7 @@
       "title": "The Hangover",
       "year": "2009",
       "runtime": "100",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": ["Comedy"],
       "director": "Todd Phillips",
       "actors": [
         "Bradley Cooper",
@@ -2271,9 +2063,7 @@
       "title": "The Great Beauty",
       "year": "2013",
       "runtime": "141",
-      "genres": [
-        "Drama"
-      ],
+      "genres": ["Drama"],
       "director": "Paolo Sorrentino",
       "actors": [
         "Toni Servillo",
@@ -2335,9 +2125,7 @@
       "title": "Gran Torino",
       "year": "2008",
       "runtime": "116",
-      "genres": [
-        "Drama"
-      ],
+      "genres": ["Drama"],
       "director": "Clint Eastwood",
       "actors": [
         "Clint Eastwood",
@@ -2387,11 +2175,7 @@
       "title": "Mary and Max",
       "year": "2009",
       "runtime": "92",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Drama"
-      ],
+      "genres": ["Animation", "Comedy", "Drama"],
       "director": "Adam Elliot",
       "actors": [
         "Toni Collette",
@@ -2429,10 +2213,7 @@
       "title": "Flight",
       "year": "2012",
       "runtime": "138",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Drama", "Thriller"],
       "director": "Robert Zemeckis",
       "actors": [
         "Nadine Velazquez",
@@ -2464,9 +2245,7 @@
       "title": "One Flew Over the Cuckoo's Nest",
       "year": "1975",
       "runtime": "133",
-      "genres": [
-        "Drama"
-      ],
+      "genres": ["Drama"],
       "director": "Milos Forman",
       "actors": [
         "Michael Berryman",
@@ -2534,9 +2313,7 @@
       "title": "Requiem for a Dream",
       "year": "2000",
       "runtime": "102",
-      "genres": [
-        "Drama"
-      ],
+      "genres": ["Drama"],
       "director": "Darren Aronofsky",
       "actors": [
         "Ellen Burstyn",
@@ -2604,11 +2381,7 @@
       "title": "The Truman Show",
       "year": "1998",
       "runtime": "103",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Sci-Fi"
-      ],
+      "genres": ["Comedy", "Drama", "Sci-Fi"],
       "director": "Peter Weir",
       "actors": [
         "Jim Carrey",
@@ -2664,11 +2437,7 @@
       "title": "The Artist",
       "year": "2011",
       "runtime": "100",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Comedy", "Drama", "Romance"],
       "director": "Michel Hazanavicius",
       "actors": [
         "Jean Dujardin",
@@ -2718,10 +2487,7 @@
       "title": "Forrest Gump",
       "year": "1994",
       "runtime": "142",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
+      "genres": ["Comedy", "Drama"],
       "director": "Robert Zemeckis",
       "actors": [
         "Tom Hanks",
@@ -2759,10 +2525,7 @@
       "title": "The Hobbit: The Desolation of Smaug",
       "year": "2013",
       "runtime": "161",
-      "genres": [
-        "Adventure",
-        "Fantasy"
-      ],
+      "genres": ["Adventure", "Fantasy"],
       "director": "Peter Jackson",
       "actors": [
         "Ian McKellen",
@@ -2806,10 +2569,7 @@
       "title": "Vicky Cristina Barcelona",
       "year": "2008",
       "runtime": "96",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Drama", "Romance"],
       "director": "Woody Allen",
       "actors": [
         "Rebecca Hall",
@@ -2847,10 +2607,7 @@
       "title": "Slumdog Millionaire",
       "year": "2008",
       "runtime": "120",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Drama", "Romance"],
       "director": "Danny Boyle, Loveleen Tandan",
       "actors": [
         "Dev Patel",
@@ -2906,9 +2663,7 @@
       "title": "Lost in Translation",
       "year": "2003",
       "runtime": "101",
-      "genres": [
-        "Drama"
-      ],
+      "genres": ["Drama"],
       "director": "Sofia Coppola",
       "actors": [
         "Scarlett Johansson",
@@ -2946,11 +2701,7 @@
       "title": "Match Point",
       "year": "2005",
       "runtime": "119",
-      "genres": [
-        "Drama",
-        "Romance",
-        "Thriller"
-      ],
+      "genres": ["Drama", "Romance", "Thriller"],
       "director": "Woody Allen",
       "actors": [
         "Jonathan Rhys Meyers",
@@ -2988,18 +2739,9 @@
       "title": "Psycho",
       "year": "1960",
       "runtime": "109",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Horror", "Mystery", "Thriller"],
       "director": "Alfred Hitchcock",
-      "actors": [
-        "Anthony Perkins",
-        "Vera Miles",
-        "John Gavin",
-        "Janet Leigh"
-      ],
+      "actors": ["Anthony Perkins", "Vera Miles", "John Gavin", "Janet Leigh"],
       "plot": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.",
       "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg/1200px-Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg",
       "createdBy": "91QwlyO420OEI7uf3qp55",
@@ -3054,11 +2796,7 @@
       "title": "North by Northwest",
       "year": "1959",
       "runtime": "136",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Crime"
-      ],
+      "genres": ["Action", "Adventure", "Crime"],
       "director": "Alfred Hitchcock",
       "actors": [
         "Cary Grant",
@@ -3114,11 +2852,7 @@
       "title": "Madagascar: Escape 2 Africa",
       "year": "2008",
       "runtime": "89",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure"
-      ],
+      "genres": ["Animation", "Action", "Adventure"],
       "director": "Eric Darnell, Tom McGrath",
       "actors": [
         "Ben Stiller",
@@ -3180,11 +2914,7 @@
       "title": "Despicable Me 2",
       "year": "2013",
       "runtime": "98",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Animation", "Adventure", "Comedy"],
       "director": "Pierre Coffin, Chris Renaud",
       "actors": [
         "Steve Carell",
@@ -3222,11 +2952,7 @@
       "title": "Downfall",
       "year": "2004",
       "runtime": "156",
-      "genres": [
-        "Biography",
-        "Drama",
-        "History"
-      ],
+      "genres": ["Biography", "Drama", "History"],
       "director": "Oliver Hirschbiegel",
       "actors": [
         "Bruno Ganz",
@@ -3270,11 +2996,7 @@
       "title": "Madagascar",
       "year": "2005",
       "runtime": "86",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Animation", "Adventure", "Comedy"],
       "director": "Eric Darnell, Tom McGrath",
       "actors": [
         "Ben Stiller",
@@ -3324,11 +3046,7 @@
       "title": "Madagascar 3: Europe's Most Wanted",
       "year": "2012",
       "runtime": "93",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Animation", "Adventure", "Comedy"],
       "director": "Eric Darnell, Tom McGrath, Conrad Vernon",
       "actors": [
         "Ben Stiller",
@@ -3366,10 +3084,7 @@
       "title": "God Bless America",
       "year": "2011",
       "runtime": "105",
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
+      "genres": ["Comedy", "Crime"],
       "director": "Bobcat Goldthwait",
       "actors": [
         "Joel Murray",
@@ -3431,10 +3146,7 @@
       "title": "The Social Network",
       "year": "2010",
       "runtime": "120",
-      "genres": [
-        "Biography",
-        "Drama"
-      ],
+      "genres": ["Biography", "Drama"],
       "director": "David Fincher",
       "actors": [
         "Jesse Eisenberg",
@@ -3490,11 +3202,7 @@
       "title": "The Pianist",
       "year": "2002",
       "runtime": "150",
-      "genres": [
-        "Biography",
-        "Drama",
-        "War"
-      ],
+      "genres": ["Biography", "Drama", "War"],
       "director": "Roman Polanski",
       "actors": [
         "Adrien Brody",
@@ -3538,11 +3246,7 @@
       "title": "Alive",
       "year": "1993",
       "runtime": "120",
-      "genres": [
-        "Adventure",
-        "Biography",
-        "Drama"
-      ],
+      "genres": ["Adventure", "Biography", "Drama"],
       "director": "Frank Marshall",
       "actors": [
         "Ethan Hawke",
@@ -3598,11 +3302,7 @@
       "title": "Casablanca",
       "year": "1942",
       "runtime": "102",
-      "genres": [
-        "Drama",
-        "Romance",
-        "War"
-      ],
+      "genres": ["Drama", "Romance", "War"],
       "director": "Michael Curtiz",
       "actors": [
         "Humphrey Bogart",
@@ -3652,11 +3352,7 @@
       "title": "American Gangster",
       "year": "2007",
       "runtime": "157",
-      "genres": [
-        "Biography",
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Biography", "Crime", "Drama"],
       "director": "Ridley Scott",
       "actors": [
         "Denzel Washington",
@@ -3700,11 +3396,7 @@
       "title": "Catch Me If You Can",
       "year": "2002",
       "runtime": "141",
-      "genres": [
-        "Biography",
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Biography", "Crime", "Drama"],
       "director": "Steven Spielberg",
       "actors": [
         "Leonardo DiCaprio",
@@ -3736,10 +3428,7 @@
       "title": "American History X",
       "year": "1998",
       "runtime": "119",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Tony Kaye",
       "actors": [
         "Edward Norton",
@@ -3771,18 +3460,9 @@
       "title": "Casino",
       "year": "1995",
       "runtime": "178",
-      "genres": [
-        "Biography",
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Biography", "Crime", "Drama"],
       "director": "Martin Scorsese",
-      "actors": [
-        "Robert De Niro",
-        "Sharon Stone",
-        "Joe Pesci",
-        "James Woods"
-      ],
+      "actors": ["Robert De Niro", "Sharon Stone", "Joe Pesci", "James Woods"],
       "plot": "Greed, deception, money, power, and murder occur between two best friends, a mafia underboss and a casino owner, for a trophy wife over a gambling empire.",
       "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTcxOWYzNDYtYmM4YS00N2NkLTk0NTAtNjg1ODgwZjAxYzI3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
       "createdBy": "vvxUePrlqsQh2EouNuwsz",
@@ -3819,11 +3499,7 @@
       "title": "Pirates of the Caribbean: At World's End",
       "year": "2007",
       "runtime": "169",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
+      "genres": ["Action", "Adventure", "Fantasy"],
       "director": "Gore Verbinski",
       "actors": [
         "Johnny Depp",
@@ -3885,11 +3561,7 @@
       "title": "Pirates of the Caribbean: On Stranger Tides",
       "year": "2011",
       "runtime": "136",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
+      "genres": ["Action", "Adventure", "Fantasy"],
       "director": "Rob Marshall",
       "actors": [
         "Johnny Depp",
@@ -3957,11 +3629,7 @@
       "title": "Crash",
       "year": "2004",
       "runtime": "112",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Crime", "Drama", "Thriller"],
       "director": "Paul Haggis",
       "actors": [
         "Karina Arroyave",
@@ -3999,11 +3667,7 @@
       "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
       "year": "2003",
       "runtime": "143",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
+      "genres": ["Action", "Adventure", "Fantasy"],
       "director": "Gore Verbinski",
       "actors": [
         "Johnny Depp",
@@ -4059,18 +3723,9 @@
       "title": "The Lord of the Rings: The Return of the King",
       "year": "2003",
       "runtime": "201",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
+      "genres": ["Action", "Adventure", "Drama"],
       "director": "Peter Jackson",
-      "actors": [
-        "Noel Appleby",
-        "Ali Astin",
-        "Sean Astin",
-        "David Aston"
-      ],
+      "actors": ["Noel Appleby", "Ali Astin", "Sean Astin", "David Aston"],
       "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
       "posterUrl": "https://m.media-amazon.com/images/I/81EBp0vOZZL.jpg",
       "createdBy": "PrXLwhoBB-j6C5nocqY_7",
@@ -4131,18 +3786,9 @@
       "title": "Oldboy",
       "year": "2003",
       "runtime": "120",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Drama", "Mystery", "Thriller"],
       "director": "Chan-wook Park",
-      "actors": [
-        "Min-sik Choi",
-        "Ji-tae Yu",
-        "Hye-jeong Kang",
-        "Dae-han Ji"
-      ],
+      "actors": ["Min-sik Choi", "Ji-tae Yu", "Hye-jeong Kang", "Dae-han Ji"],
       "plot": "After being kidnapped and imprisoned for 15 years, Oh Dae-Su is released, only to find that he must find his captor in 5 days.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_SX300.jpg",
       "createdBy": "aYcm82JjDayUH7saD2NKz",
@@ -4191,10 +3837,7 @@
       "title": "Chocolat",
       "year": "2000",
       "runtime": "121",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Drama", "Romance"],
       "director": "Lasse Hallström",
       "actors": [
         "Alfred Molina",
@@ -4262,18 +3905,9 @@
       "title": "Casino Royale",
       "year": "2006",
       "runtime": "144",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
-      ],
+      "genres": ["Action", "Adventure", "Thriller"],
       "director": "Martin Campbell",
-      "actors": [
-        "Daniel Craig",
-        "Eva Green",
-        "Mads Mikkelsen",
-        "Judi Dench"
-      ],
+      "actors": ["Daniel Craig", "Eva Green", "Mads Mikkelsen", "Judi Dench"],
       "plot": "Armed with a licence to kill, Secret Agent James Bond sets out on his first mission as 007 and must defeat a weapons dealer in a high stakes game of poker at Casino Royale, but things are not what they seem.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM5MjI4NDExNF5BMl5BanBnXkFtZTcwMDM1MjMzMQ@@._V1_SX300.jpg",
       "createdBy": "91QwlyO420OEI7uf3qp55",
@@ -4298,18 +3932,9 @@
       "title": "WALL·E",
       "year": "2008",
       "runtime": "98",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Family"
-      ],
+      "genres": ["Animation", "Adventure", "Family"],
       "director": "Andrew Stanton",
-      "actors": [
-        "Ben Burtt",
-        "Elissa Knight",
-        "Jeff Garlin",
-        "Fred Willard"
-      ],
+      "actors": ["Ben Burtt", "Elissa Knight", "Jeff Garlin", "Fred Willard"],
       "plot": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTczOTA3MzY2N15BMl5BanBnXkFtZTcwOTYwNjE2MQ@@._V1_SX300.jpg",
       "createdBy": "aYcm82JjDayUH7saD2NKz",
@@ -4340,11 +3965,7 @@
       "title": "The Wolf of Wall Street",
       "year": "2013",
       "runtime": "180",
-      "genres": [
-        "Biography",
-        "Comedy",
-        "Crime"
-      ],
+      "genres": ["Biography", "Comedy", "Crime"],
       "director": "Martin Scorsese",
       "actors": [
         "Leonardo DiCaprio",
@@ -4394,18 +4015,9 @@
       "title": "Hellboy II: The Golden Army",
       "year": "2008",
       "runtime": "120",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
+      "genres": ["Action", "Adventure", "Fantasy"],
       "director": "Guillermo del Toro",
-      "actors": [
-        "Ron Perlman",
-        "Selma Blair",
-        "Doug Jones",
-        "John Alexander"
-      ],
+      "actors": ["Ron Perlman", "Selma Blair", "Doug Jones", "John Alexander"],
       "plot": "The mythical world starts a rebellion against humanity in order to rule the Earth, so Hellboy and his team must save the world from the rebellious creatures.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5NzgyMjc2Nl5BMl5BanBnXkFtZTcwOTU3MDI3MQ@@._V1_SX300.jpg",
       "createdBy": "PrXLwhoBB-j6C5nocqY_7",
@@ -4454,11 +4066,7 @@
       "title": "Sunset Boulevard",
       "year": "1950",
       "runtime": "110",
-      "genres": [
-        "Drama",
-        "Film-Noir",
-        "Romance"
-      ],
+      "genres": ["Drama", "Film-Noir", "Romance"],
       "director": "Billy Wilder",
       "actors": [
         "William Holden",
@@ -4502,9 +4110,7 @@
       "title": "I-See-You.Com",
       "year": "2006",
       "runtime": "92",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": ["Comedy"],
       "director": "Eric Steven Stahl",
       "actors": [
         "Beau Bridges",
@@ -4536,11 +4142,7 @@
       "title": "The Grand Budapest Hotel",
       "year": "2014",
       "runtime": "99",
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Crime"
-      ],
+      "genres": ["Adventure", "Comedy", "Crime"],
       "director": "Wes Anderson",
       "actors": [
         "Ralph Fiennes",
@@ -4602,11 +4204,7 @@
       "title": "The Hitchhiker's Guide to the Galaxy",
       "year": "2005",
       "runtime": "109",
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Sci-Fi"
-      ],
+      "genres": ["Adventure", "Comedy", "Sci-Fi"],
       "director": "Garth Jennings",
       "actors": [
         "Bill Bailey",
@@ -4644,10 +4242,7 @@
       "title": "Once Upon a Time in America",
       "year": "1984",
       "runtime": "229",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Sergio Leone",
       "actors": [
         "Robert De Niro",
@@ -4673,11 +4268,7 @@
       "title": "Oblivion",
       "year": "2013",
       "runtime": "124",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Mystery"
-      ],
+      "genres": ["Action", "Adventure", "Mystery"],
       "director": "Joseph Kosinski",
       "actors": [
         "Tom Cruise",
@@ -4715,11 +4306,7 @@
       "title": "V for Vendetta",
       "year": "2005",
       "runtime": "132",
-      "genres": [
-        "Action",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Action", "Drama", "Thriller"],
       "director": "James McTeigue",
       "actors": [
         "Natalie Portman",
@@ -4763,18 +4350,9 @@
       "title": "Gattaca",
       "year": "1997",
       "runtime": "106",
-      "genres": [
-        "Drama",
-        "Sci-Fi",
-        "Thriller"
-      ],
+      "genres": ["Drama", "Sci-Fi", "Thriller"],
       "director": "Andrew Niccol",
-      "actors": [
-        "Ethan Hawke",
-        "Uma Thurman",
-        "Gore Vidal",
-        "Xander Berkeley"
-      ],
+      "actors": ["Ethan Hawke", "Uma Thurman", "Gore Vidal", "Xander Berkeley"],
       "plot": "A genetically inferior man assumes the identity of a superior one in order to pursue his lifelong dream of space travel.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDQxOTc0MzMtZmRlOS00OWQ5LWI2ZDctOTAwNmMwOTYxYzlhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
       "createdBy": "91QwlyO420OEI7uf3qp55",
@@ -4817,11 +4395,7 @@
       "title": "Silver Linings Playbook",
       "year": "2012",
       "runtime": "122",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Comedy", "Drama", "Romance"],
       "director": "David O. Russell",
       "actors": [
         "Bradley Cooper",
@@ -4865,11 +4439,7 @@
       "title": "Alice in Wonderland",
       "year": "2010",
       "runtime": "108",
-      "genres": [
-        "Adventure",
-        "Family",
-        "Fantasy"
-      ],
+      "genres": ["Adventure", "Family", "Fantasy"],
       "director": "Tim Burton",
       "actors": [
         "Johnny Depp",
@@ -4913,10 +4483,7 @@
       "title": "Gandhi",
       "year": "1982",
       "runtime": "191",
-      "genres": [
-        "Biography",
-        "Drama"
-      ],
+      "genres": ["Biography", "Drama"],
       "director": "Richard Attenborough",
       "actors": [
         "Ben Kingsley",
@@ -4972,11 +4539,7 @@
       "title": "Pacific Rim",
       "year": "2013",
       "runtime": "131",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
+      "genres": ["Action", "Adventure", "Sci-Fi"],
       "director": "Guillermo del Toro",
       "actors": [
         "Charlie Hunnam",
@@ -5026,11 +4589,7 @@
       "title": "Kiss Kiss Bang Bang",
       "year": "2005",
       "runtime": "103",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
+      "genres": ["Comedy", "Crime", "Mystery"],
       "director": "Shane Black",
       "actors": [
         "Robert Downey Jr.",
@@ -5062,11 +4621,7 @@
       "title": "The Quiet American",
       "year": "2002",
       "runtime": "101",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Romance"
-      ],
+      "genres": ["Drama", "Mystery", "Romance"],
       "director": "Phillip Noyce",
       "actors": [
         "Michael Caine",
@@ -5122,17 +4677,9 @@
       "title": "Cloud Atlas",
       "year": "2012",
       "runtime": "172",
-      "genres": [
-        "Drama",
-        "Sci-Fi"
-      ],
+      "genres": ["Drama", "Sci-Fi"],
       "director": "Tom Tykwer, Lana Wachowski, Lilly Wachowski",
-      "actors": [
-        "Tom Hanks",
-        "Halle Berry",
-        "Jim Broadbent",
-        "Hugo Weaving"
-      ],
+      "actors": ["Tom Hanks", "Halle Berry", "Jim Broadbent", "Hugo Weaving"],
       "plot": "An exploration of how the actions of individual lives impact one another in the past, present and future, as one soul is shaped from a killer into a hero, and an act of kindness ripples across centuries to inspire a revolution.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTczMTgxMjc4NF5BMl5BanBnXkFtZTcwNjM5MTA2OA@@._V1_SX300.jpg",
       "createdBy": "RYC1FpLol3onriOBZSjLv",
@@ -5151,10 +4698,7 @@
       "title": "The Impossible",
       "year": "2012",
       "runtime": "114",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Drama", "Thriller"],
       "director": "J.A. Bayona",
       "actors": [
         "Naomi Watts",
@@ -5216,17 +4760,9 @@
       "title": "All Quiet on the Western Front",
       "year": "1930",
       "runtime": "136",
-      "genres": [
-        "Drama",
-        "War"
-      ],
+      "genres": ["Drama", "War"],
       "director": "Lewis Milestone",
-      "actors": [
-        "Louis Wolheim",
-        "Lew Ayres",
-        "John Wray",
-        "Arnold Lucy"
-      ],
+      "actors": ["Louis Wolheim", "Lew Ayres", "John Wray", "Arnold Lucy"],
       "plot": "A young soldier faces profound disillusionment in the soul-destroying horror of World War I.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM5OTg2NDY1NF5BMl5BanBnXkFtZTcwNTQ4MTMwNw@@._V1_SX300.jpg",
       "createdBy": "aYcm82JjDayUH7saD2NKz",
@@ -5275,11 +4811,7 @@
       "title": "The English Patient",
       "year": "1996",
       "runtime": "162",
-      "genres": [
-        "Drama",
-        "Romance",
-        "War"
-      ],
+      "genres": ["Drama", "Romance", "War"],
       "director": "Anthony Minghella",
       "actors": [
         "Ralph Fiennes",
@@ -5305,10 +4837,7 @@
       "title": "Dallas Buyers Club",
       "year": "2013",
       "runtime": "117",
-      "genres": [
-        "Biography",
-        "Drama"
-      ],
+      "genres": ["Biography", "Drama"],
       "director": "Jean-Marc Vallée",
       "actors": [
         "Matthew McConaughey",
@@ -5352,11 +4881,7 @@
       "title": "Frida",
       "year": "2002",
       "runtime": "123",
-      "genres": [
-        "Biography",
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Biography", "Drama", "Romance"],
       "director": "Julie Taymor",
       "actors": [
         "Salma Hayek",
@@ -5406,17 +4931,9 @@
       "title": "Before Sunrise",
       "year": "1995",
       "runtime": "105",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Drama", "Romance"],
       "director": "Richard Linklater",
-      "actors": [
-        "Ethan Hawke",
-        "Julie Delpy",
-        "Andrea Eckert",
-        "Hanno Pöschl"
-      ],
+      "actors": ["Ethan Hawke", "Julie Delpy", "Andrea Eckert", "Hanno Pöschl"],
       "plot": "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyMTM3MTQxMl5BMl5BanBnXkFtZTcwMDAzNjQ4Mg@@._V1_SX300.jpg",
       "createdBy": "aYcm82JjDayUH7saD2NKz",
@@ -5435,10 +4952,7 @@
       "title": "The Rum Diary",
       "year": "2011",
       "runtime": "120",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
+      "genres": ["Comedy", "Drama"],
       "director": "Bruce Robinson",
       "actors": [
         "Johnny Depp",
@@ -5494,11 +5008,7 @@
       "title": "The Last Samurai",
       "year": "2003",
       "runtime": "154",
-      "genres": [
-        "Action",
-        "Drama",
-        "History"
-      ],
+      "genres": ["Action", "Drama", "History"],
       "director": "Edward Zwick",
       "actors": [
         "Ken Watanabe",
@@ -5548,11 +5058,7 @@
       "title": "Chinatown",
       "year": "1974",
       "runtime": "130",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Drama", "Mystery", "Thriller"],
       "director": "Roman Polanski",
       "actors": [
         "Jack Nicholson",
@@ -5584,10 +5090,7 @@
       "title": "Calvary",
       "year": "2014",
       "runtime": "102",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
+      "genres": ["Comedy", "Drama"],
       "director": "John Michael McDonagh",
       "actors": [
         "Brendan Gleeson",
@@ -5667,10 +5170,7 @@
       "title": "Before Sunset",
       "year": "2004",
       "runtime": "80",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Drama", "Romance"],
       "director": "Richard Linklater",
       "actors": [
         "Ethan Hawke",
@@ -5708,18 +5208,9 @@
       "title": "Spirited Away",
       "year": "2001",
       "runtime": "125",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Family"
-      ],
+      "genres": ["Animation", "Adventure", "Family"],
       "director": "Hayao Miyazaki",
-      "actors": [
-        "Rumi Hiiragi",
-        "Miyu Irino",
-        "Mari Natsuki",
-        "Takashi Naitô"
-      ],
+      "actors": ["Rumi Hiiragi", "Miyu Irino", "Mari Natsuki", "Takashi Naitô"],
       "plot": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjYxMDcyMzIzNl5BMl5BanBnXkFtZTYwNDg2MDU3._V1_SX300.jpg",
       "createdBy": "aYcm82JjDayUH7saD2NKz",
@@ -5774,10 +5265,7 @@
       "title": "Indochine",
       "year": "1992",
       "runtime": "159",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Drama", "Romance"],
       "director": "Régis Wargnier",
       "actors": [
         "Catherine Deneuve",
@@ -5827,11 +5315,7 @@
       "title": "Birdman or (The Unexpected Virtue of Ignorance)",
       "year": "2014",
       "runtime": "119",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Comedy", "Drama", "Romance"],
       "director": "Alejandro G. Iñárritu",
       "actors": [
         "Michael Keaton",
@@ -5875,9 +5359,7 @@
       "title": "Boyhood",
       "year": "2014",
       "runtime": "165",
-      "genres": [
-        "Drama"
-      ],
+      "genres": ["Drama"],
       "director": "Richard Linklater",
       "actors": [
         "Ellar Coltrane",
@@ -5945,10 +5427,7 @@
       "title": "12 Angry Men",
       "year": "1957",
       "runtime": "96",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Sidney Lumet",
       "actors": [
         "Martin Balsam",
@@ -5992,11 +5471,7 @@
       "title": "The Imitation Game",
       "year": "2014",
       "runtime": "114",
-      "genres": [
-        "Biography",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Biography", "Drama", "Thriller"],
       "director": "Morten Tyldum",
       "actors": [
         "Benedict Cumberbatch",
@@ -6046,11 +5521,7 @@
       "title": "Interstellar",
       "year": "2014",
       "runtime": "169",
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Sci-Fi"
-      ],
+      "genres": ["Adventure", "Drama", "Sci-Fi"],
       "director": "Christopher Nolan",
       "actors": [
         "Ellen Burstyn",
@@ -6082,11 +5553,7 @@
       "title": "Big Nothing",
       "year": "2006",
       "runtime": "86",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Thriller"
-      ],
+      "genres": ["Comedy", "Crime", "Thriller"],
       "director": "Jean-Baptiste Andrea",
       "actors": [
         "David Schwimmer",
@@ -6136,11 +5603,7 @@
       "title": "Das Boot",
       "year": "1981",
       "runtime": "149",
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Adventure", "Drama", "Thriller"],
       "director": "Wolfgang Petersen",
       "actors": [
         "Jürgen Prochnow",
@@ -6172,18 +5635,9 @@
       "title": "Shrek 2",
       "year": "2004",
       "runtime": "93",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Animation", "Adventure", "Comedy"],
       "director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
-      "actors": [
-        "Mike Myers",
-        "Eddie Murphy",
-        "Cameron Diaz",
-        "Julie Andrews"
-      ],
+      "actors": ["Mike Myers", "Eddie Murphy", "Cameron Diaz", "Julie Andrews"],
       "plot": "Princess Fiona's parents invite her and Shrek to dinner to celebrate her marriage. If only they knew the newlyweds were both ogres.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk4MTMwNjI4M15BMl5BanBnXkFtZTcwMjExMzUyMQ@@._V1_SX300.jpg",
       "createdBy": "PrXLwhoBB-j6C5nocqY_7",
@@ -6220,10 +5674,7 @@
       "title": "Sin City",
       "year": "2005",
       "runtime": "124",
-      "genres": [
-        "Crime",
-        "Thriller"
-      ],
+      "genres": ["Crime", "Thriller"],
       "director": "Frank Miller, Robert Rodriguez, Quentin Tarantino",
       "actors": [
         "Jessica Alba",
@@ -6249,18 +5700,9 @@
       "title": "Nebraska",
       "year": "2013",
       "runtime": "115",
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Drama"
-      ],
+      "genres": ["Adventure", "Comedy", "Drama"],
       "director": "Alexander Payne",
-      "actors": [
-        "Bruce Dern",
-        "Will Forte",
-        "June Squibb",
-        "Bob Odenkirk"
-      ],
+      "actors": ["Bruce Dern", "Will Forte", "June Squibb", "Bob Odenkirk"],
       "plot": "An aging, booze-addled father makes the trip from Montana to Nebraska with his estranged son in order to claim a million-dollar Mega Sweepstakes Marketing prize.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2Mjk2NDkyMl5BMl5BanBnXkFtZTgwNTk0NzcyMDE@._V1_SX300.jpg",
       "createdBy": "RYC1FpLol3onriOBZSjLv",
@@ -6297,18 +5739,9 @@
       "title": "Shrek",
       "year": "2001",
       "runtime": "90",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Animation", "Adventure", "Comedy"],
       "director": "Andrew Adamson, Vicky Jenson",
-      "actors": [
-        "Mike Myers",
-        "Eddie Murphy",
-        "Cameron Diaz",
-        "John Lithgow"
-      ],
+      "actors": ["Mike Myers", "Eddie Murphy", "Cameron Diaz", "John Lithgow"],
       "plot": "After his swamp is filled with magical creatures, an ogre agrees to rescue a princess for a villainous lord in order to get his land back.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NTE1NTE0M15BMl5BanBnXkFtZTgwNjY4NTYxMTE@._V1_SX300.jpg",
       "createdBy": "91QwlyO420OEI7uf3qp55",
@@ -6339,18 +5772,9 @@
       "title": "Mr. & Mrs. Smith",
       "year": "2005",
       "runtime": "120",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
+      "genres": ["Action", "Comedy", "Crime"],
       "director": "Doug Liman",
-      "actors": [
-        "Brad Pitt",
-        "Angelina Jolie",
-        "Vince Vaughn",
-        "Adam Brody"
-      ],
+      "actors": ["Brad Pitt", "Angelina Jolie", "Vince Vaughn", "Adam Brody"],
       "plot": "A bored married couple is surprised to learn that they are both assassins hired by competing agencies to kill each other.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxMzcxNzQzOF5BMl5BanBnXkFtZTcwMzQxNjUyMw@@._V1_SX300.jpg",
       "createdBy": "RYC1FpLol3onriOBZSjLv",
@@ -6399,11 +5823,7 @@
       "title": "Original Sin",
       "year": "2001",
       "runtime": "116",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Romance"
-      ],
+      "genres": ["Drama", "Mystery", "Romance"],
       "director": "Michael Cristofer",
       "actors": [
         "Antonio Banderas",
@@ -6441,11 +5861,7 @@
       "title": "Shrek Forever After",
       "year": "2010",
       "runtime": "93",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Animation", "Adventure", "Comedy"],
       "director": "Mike Mitchell",
       "actors": [
         "Mike Myers",
@@ -6477,10 +5893,7 @@
       "title": "Before Midnight",
       "year": "2013",
       "runtime": "109",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Drama", "Romance"],
       "director": "Richard Linklater",
       "actors": [
         "Ethan Hawke",
@@ -6518,11 +5931,7 @@
       "title": "Despicable Me",
       "year": "2010",
       "runtime": "95",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Animation", "Adventure", "Comedy"],
       "director": "Pierre Coffin, Chris Renaud",
       "actors": [
         "Steve Carell",
@@ -6578,16 +5987,9 @@
       "title": "Troy",
       "year": "2004",
       "runtime": "163",
-      "genres": [
-        "Adventure"
-      ],
+      "genres": ["Adventure"],
       "director": "Wolfgang Petersen",
-      "actors": [
-        "Julian Glover",
-        "Brian Cox",
-        "Nathan Jones",
-        "Adoni Maropis"
-      ],
+      "actors": ["Julian Glover", "Brian Cox", "Nathan Jones", "Adoni Maropis"],
       "plot": "An adaptation of Homer's great epic, the film follows the assault on Troy by the united Greek forces and chronicles the fates of the men involved.",
       "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTk5MzU1MDMwMF5BMl5BanBnXkFtZTcwNjczODMzMw@@._V1_SX300.jpg",
       "createdBy": "PrXLwhoBB-j6C5nocqY_7",
@@ -6630,10 +6032,7 @@
       "title": "The Hobbit: An Unexpected Journey",
       "year": "2012",
       "runtime": "169",
-      "genres": [
-        "Adventure",
-        "Fantasy"
-      ],
+      "genres": ["Adventure", "Fantasy"],
       "director": "Peter Jackson",
       "actors": [
         "Ian McKellen",
@@ -6677,10 +6076,7 @@
       "title": "The Great Gatsby",
       "year": "2013",
       "runtime": "143",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Drama", "Romance"],
       "director": "Baz Luhrmann",
       "actors": [
         "Lisa Adam",
@@ -6730,11 +6126,7 @@
       "title": "Ice Age",
       "year": "2002",
       "runtime": "81",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Animation", "Adventure", "Comedy"],
       "director": "Chris Wedge, Carlos Saldanha",
       "actors": [
         "Ray Romano",
@@ -6778,18 +6170,9 @@
       "title": "The Lord of the Rings: The Fellowship of the Ring",
       "year": "2001",
       "runtime": "178",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
+      "genres": ["Action", "Adventure", "Drama"],
       "director": "Peter Jackson",
-      "actors": [
-        "Alan Howard",
-        "Noel Appleby",
-        "Sean Astin",
-        "Sala Baker"
-      ],
+      "actors": ["Alan Howard", "Noel Appleby", "Sean Astin", "Sala Baker"],
       "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle Earth from the Dark Lord Sauron.",
       "posterUrl": "https://m.media-amazon.com/images/I/81EBp0vOZZL.jpg",
       "createdBy": "vvxUePrlqsQh2EouNuwsz",
@@ -6844,18 +6227,9 @@
       "title": "The Lord of the Rings: The Two Towers",
       "year": "2002",
       "runtime": "179",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
+      "genres": ["Action", "Adventure", "Drama"],
       "director": "Peter Jackson",
-      "actors": [
-        "Bruce Allpress",
-        "Sean Astin",
-        "John Bach",
-        "Sala Baker"
-      ],
+      "actors": ["Bruce Allpress", "Sean Astin", "John Bach", "Sala Baker"],
       "plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyNDU0NjY4NTheQTJeQWpwZ15BbWU2MDk4MTY2Nw@@._V1_SX300.jpg",
       "createdBy": "PrXLwhoBB-j6C5nocqY_7",
@@ -6904,11 +6278,7 @@
       "title": "Ex Machina",
       "year": "2015",
       "runtime": "108",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi"
-      ],
+      "genres": ["Drama", "Mystery", "Sci-Fi"],
       "director": "Alex Garland",
       "actors": [
         "Domhnall Gleeson",
@@ -6940,11 +6310,7 @@
       "title": "The Theory of Everything",
       "year": "2014",
       "runtime": "123",
-      "genres": [
-        "Biography",
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Biography", "Drama", "Romance"],
       "director": "James Marsh",
       "actors": [
         "Eddie Redmayne",
@@ -7000,11 +6366,7 @@
       "title": "Shogun",
       "year": "1980",
       "runtime": "60",
-      "genres": [
-        "Adventure",
-        "Drama",
-        "History"
-      ],
+      "genres": ["Adventure", "Drama", "History"],
       "director": "N/A",
       "actors": [
         "Richard Chamberlain",
@@ -7072,11 +6434,7 @@
       "title": "Spotlight",
       "year": "2015",
       "runtime": "128",
-      "genres": [
-        "Biography",
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Biography", "Crime", "Drama"],
       "director": "Tom McCarthy",
       "actors": [
         "Mark Ruffalo",
@@ -7114,11 +6472,7 @@
       "title": "Vertigo",
       "year": "1958",
       "runtime": "128",
-      "genres": [
-        "Mystery",
-        "Romance",
-        "Thriller"
-      ],
+      "genres": ["Mystery", "Romance", "Thriller"],
       "director": "Alfred Hitchcock",
       "actors": [
         "James Stewart",
@@ -7168,10 +6522,7 @@
       "title": "Whiplash",
       "year": "2014",
       "runtime": "107",
-      "genres": [
-        "Drama",
-        "Music"
-      ],
+      "genres": ["Drama", "Music"],
       "director": "Damien Chazelle",
       "actors": [
         "Miles Teller",
@@ -7215,10 +6566,7 @@
       "title": "The Lives of Others",
       "year": "2006",
       "runtime": "137",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Drama", "Thriller"],
       "director": "Florian Henckel von Donnersmarck",
       "actors": [
         "Martina Gedeck",
@@ -7280,11 +6628,7 @@
       "title": "Hotel Rwanda",
       "year": "2004",
       "runtime": "121",
-      "genres": [
-        "Drama",
-        "History",
-        "War"
-      ],
+      "genres": ["Drama", "History", "War"],
       "director": "Terry George",
       "actors": [
         "Xolani Mali",
@@ -7322,11 +6666,7 @@
       "title": "The Martian",
       "year": "2015",
       "runtime": "144",
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Sci-Fi"
-      ],
+      "genres": ["Adventure", "Drama", "Sci-Fi"],
       "director": "Ridley Scott",
       "actors": [
         "Matt Damon",
@@ -7370,10 +6710,7 @@
       "title": "To Kill a Mockingbird",
       "year": "1962",
       "runtime": "129",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Robert Mulligan",
       "actors": [
         "Gregory Peck",
@@ -7405,11 +6742,7 @@
       "title": "The Hateful Eight",
       "year": "2015",
       "runtime": "187",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
+      "genres": ["Crime", "Drama", "Mystery"],
       "director": "Quentin Tarantino",
       "actors": [
         "Samuel L. Jackson",
@@ -7483,10 +6816,7 @@
       "title": "A Separation",
       "year": "2011",
       "runtime": "123",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
+      "genres": ["Drama", "Mystery"],
       "director": "Asghar Farhadi",
       "actors": [
         "Peyman Moaadi",
@@ -7536,11 +6866,7 @@
       "title": "The Big Short",
       "year": "2015",
       "runtime": "130",
-      "genres": [
-        "Biography",
-        "Comedy",
-        "Drama"
-      ],
+      "genres": ["Biography", "Comedy", "Drama"],
       "director": "Adam McKay",
       "actors": [
         "Ryan Gosling",
@@ -7607,17 +6933,9 @@
       "title": "The Devil All the Time",
       "year": "2020",
       "runtime": "138",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Crime", "Drama", "Thriller"],
       "director": "Antonio Campos",
-      "actors": [
-        "Bill Skarsgård",
-        "Tom Holland",
-        "Banks Repeta"
-      ],
+      "actors": ["Bill Skarsgård", "Tom Holland", "Banks Repeta"],
       "plot": "Set in rural southern Ohio and West Virginia, The Devil All the Time follows a cast of compelling and bizarre characters from the end of World War II to the 1960s. There's Willard Russell, tormented veteran of the carnage in the South Pacific, who can't save his beautiful wife, Charlotte, from an agonizing death by cancer no matter how much sacrificial blood he pours on his \"prayer log.\" There's Carl and Sandy Henderson, a husband-and-wife team of serial killers, who troll America's highways searching for suitable models to photograph and exterminate. There's the spider-handling preacher Roy and his crippled virtuoso-guitar-playing sidekick, Theodore, running from the law. And caught in the middle of all this is Arvin Eugene Russell, Willard and Charlotte's orphaned son, who grows up to be a good but also violent man in his own right.",
       "posterUrl": "https://m.media-amazon.com/images/I/91baqRGXHQL._AC_SL1500_.jpg",
       "id": "QmRi3-exPlh33nxxk9soc",
