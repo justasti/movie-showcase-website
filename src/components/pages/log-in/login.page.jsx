@@ -1,21 +1,19 @@
 import { useContext, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
+import { loginUser } from '../../../features/movies/users.slice'
 import { Form, InputGroup, Button } from '../../'
 import { FormError } from '../../atoms/form-error/form-error.styles'
 import { StyledMain } from './login-page.styles'
 import { compareSync } from 'bcryptjs'
-import { USERS_ACTION_TYPES } from '../../../contexts/users/users.actions'
-import UsersContext from '../../../contexts/users/users.context'
 import ThemeContext from '../../../contexts/theme/theme.context'
 
 const LoginPage = () => {
   const navigate = useNavigate()
+  const dispatch = useDispatch()
   const [formInputs, setFormInputs] = useState({ email: '', password: '' })
   const [errors, setErrors] = useState([])
-  const {
-    dispatchUsers,
-    users: { users },
-  } = useContext(UsersContext)
+  const { users } = useSelector((state) => state.users)
   const { theme } = useContext(ThemeContext)
 
   const createErrorMessage = (message) => {
@@ -37,12 +35,9 @@ const LoginPage = () => {
     const existingUser = users.find((user) => user.email === formInputs.email)
 
     const passwordIsMatching = () => {
-      if (
-        existingUser &&
-        compareSync(formInputs.password, existingUser.password)
+      return (
+        existingUser && compareSync(formInputs.password, existingUser.password)
       )
-        return true
-      else return false
     }
 
     if (!passwordIsMatching()) {
@@ -50,10 +45,7 @@ const LoginPage = () => {
     } else if (existingUser.isRestricted) {
       createErrorMessage('User is blocked! Please contact support.')
     } else {
-      dispatchUsers({
-        type: USERS_ACTION_TYPES.LOGIN,
-        user: existingUser,
-      })
+      dispatch(loginUser(existingUser))
       navigate('/')
     }
   }

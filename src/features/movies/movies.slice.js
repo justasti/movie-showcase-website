@@ -29,7 +29,7 @@ const deleteMovie = createAsyncThunk('movies/deleteMovie', async (movieId) => {
     .then(() => movieId)
 })
 
-const updateMovieWithComments = createAsyncThunk('movies/updateMovieWithComments', async (updatedMovie) => {
+const updateMovieWithComments = createAsyncThunk('movies/updateMovieWithComments', async (updatedMovie, thunkAPI) => {
   return axios.patch(`${MOVIES_API_URL}/${updatedMovie.id}`, updatedMovie)
     .then(res => res.data)
 })

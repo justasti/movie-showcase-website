@@ -5,16 +5,15 @@ import {
   updateMovieWithComments,
   deleteMovie,
 } from '../../../../features/movies/movies.slice'
-import { MovieInfoContainer, StyledMain } from './movie-info.styles'
 import {
   SkeletonLoader,
   Button,
   CommentBox,
   CommentsContainer,
 } from '../../../'
+import { MovieInfoContainer, StyledMain } from './movie-info.styles'
 import { nanoid } from 'nanoid'
 import ThemeContext from '../../../../contexts/theme/theme.context'
-import UsersContext from '../../../../contexts/users/users.context'
 
 const MovieInfoPage = () => {
   const navigate = useNavigate()
@@ -23,9 +22,7 @@ const MovieInfoPage = () => {
   const [movieNotFound, setMovieNotFound] = useState(false)
   const [comment, setComment] = useState('')
   const { id } = useParams()
-  const {
-    users: { authUser },
-  } = useContext(UsersContext)
+  const { authUser } = useSelector((state) => state.users)
   const { theme } = useContext(ThemeContext)
   const { movies } = useSelector((state) => state.movies)
 

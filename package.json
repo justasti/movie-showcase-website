@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently --kill-others \"vite\" \"json-server -w src/data/data.json\"",
+    "dev": "concurrently --kill-others \"vite\" \"json-server -w src/data/data.json --routes src/data/routes.json\"",
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview"

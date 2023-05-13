@@ -1,21 +1,20 @@
 import { useContext, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { Form, InputGroup, Button, FormError } from '../../'
 import { StyledMain } from './sign-up-page.styles'
 import { nanoid } from 'nanoid'
 import { useFormik } from 'formik'
 import { USERS_ACTION_TYPES } from '../../../contexts/users/users.actions'
-import UsersContext from '../../../contexts/users/users.context'
 import ThemeContext from '../../../contexts/theme/theme.context'
 import * as yup from 'yup'
+import { addUser } from '../../../features/movies/users.slice'
 
 const SignUpPage = () => {
   const navigate = useNavigate()
   const [existingUser, setExistingUser] = useState(false)
-  const {
-    dispatchUsers,
-    users: { users },
-  } = useContext(UsersContext)
+  const dispatch = useDispatch()
+  const { users } = useSelector((state) => state.users)
   const { theme } = useContext(ThemeContext)
 
   const validationSchema = yup.object({
@@ -75,10 +74,7 @@ const SignUpPage = () => {
           values.avatarUrl ||
           'https://img.freepik.com/free-icon/user_318-159711.jpg',
       }
-      dispatchUsers({
-        type: USERS_ACTION_TYPES.ADD,
-        user: newUser,
-      })
+      dispatch(addUser(newUser))
       navigate('/')
     },
   })

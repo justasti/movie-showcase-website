@@ -1,19 +1,16 @@
 import { useContext, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { updateMovieWithComments } from '../../../../features/movies/movies.slice'
 import { Link } from 'react-router-dom'
 import { Button } from '../../../'
 import { StyledMovieComment } from './movie-comment.styles'
-import UsersContext from '../../../../contexts/users/users.context'
 import ThemeContext from '../../../../contexts/theme/theme.context'
-import { useDispatch } from 'react-redux'
-import { updateMovieWithComments } from '../../../../features/movies/movies.slice'
 
 const MovieComment = ({ comment, movie }) => {
   const [editing, setEditing] = useState(false)
   const [commentValue, setCommentValue] = useState(comment?.comment || '')
 
-  const {
-    users: { users, authUser },
-  } = useContext(UsersContext)
+  const { users, authUser } = useSelector((state) => state.users)
   const { theme } = useContext(ThemeContext)
 
   const dispatch = useDispatch()

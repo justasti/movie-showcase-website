@@ -27,7 +27,7 @@
           "ratings": [
             {
               "userId": "vvxUePrlqsQh2EouNuwsz",
-              "rating": -1
+              "rating": 0
             }
           ]
         },
@@ -148,8 +148,7 @@
             }
           ]
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "DwsgS3uxPu2EJ70xAO1Dn",
@@ -201,8 +200,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "261gVTu6G7-TTW1pn5QPM",
@@ -253,8 +251,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "kQnprmpMDiwpEfXyddOsW",
@@ -307,8 +304,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "zRUOwNnCIq4HtXb8qoD7J",
@@ -354,8 +350,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "q0yZYiTXl-r58sTFLYC07",
@@ -407,8 +402,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "mDN3mM7U2ITrv-QYHlgdj",
@@ -460,8 +454,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "v8Sa4cHi7z2_D4w0dcR8e",
@@ -508,8 +501,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "1fFrKBSeDk4l2-3u2oIcc",
@@ -550,8 +542,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "t947l6Zw9viU1m6ebPu9J",
@@ -610,8 +601,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "O5edTIbf5VXG95_Bz7Wqn",
@@ -687,8 +677,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "lgL91aQmCl0m-UZ8OFe8p",
@@ -723,8 +712,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "jCP8h6QCZde4_Ffn6Z6qE",
@@ -771,8 +759,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "cFRIpufmKP3U1Eden9dRc",
@@ -819,8 +806,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "A6nlu7Gvvsmmg9peownmj",
@@ -896,8 +882,7 @@
             }
           ]
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "tcra9rLpCrD8jOC0_RIZy",
@@ -932,8 +917,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "SRxAsG1CNMx58se3sM0Qe",
@@ -1010,8 +994,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "HhWZoSs0JBm_-r2ShxF3x",
@@ -1051,8 +1034,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "nXdItkvUqcVJR9yOHKKFw",
@@ -1134,9 +1116,14 @@
           "id": "T7bxb4ORu9Utjk0AxS9WS",
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
+        },
+        {
+          "id": "0ZHumW2Po_18uXba8KLIk",
+          "userId": "91QwlyO420OEI7uf3qp55",
+          "comment": "Veikia? Bus matyt!",
+          "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "fiRd_fjwW0zhaOOIm6G-N",
@@ -1194,8 +1181,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "Ffz5F5Ns1t4ZPQkNjpJEA",
@@ -1260,8 +1246,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "IztsKW0OOonhXBo0-3Aas",
@@ -1313,8 +1298,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "wc9xR7mLpTfmEtePiDSU3",
@@ -1373,8 +1357,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "9nQU4UbztsA4udcRHeoiU",
@@ -1420,8 +1403,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "MX9mNXQcb54CCKPBIXnLH",
@@ -1474,8 +1456,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "SOMJ--iTvqrxT74rsUlSU",
@@ -1503,8 +1484,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "wT6aneWLSetExbMMlbwif",
@@ -1544,8 +1524,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "-VdT5WaJBu21ZYoTW_lRD",
@@ -1622,8 +1601,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "lvSxIBZt7lCgZruowB_zZ",
@@ -1663,8 +1641,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "idA-7_NU4FjPI4f9wduRt",
@@ -1716,8 +1693,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "XUdDeh75bnEaPuTS24B3v",
@@ -1752,8 +1728,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "71MEYbemYEmC7go-zqpAd",
@@ -1799,8 +1774,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "RNavWw2-ROE4Bu-0zzx_Q",
@@ -1847,8 +1821,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "WiO4kczg8nO4dosvqAlDN",
@@ -1906,8 +1879,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "97QhH8f1Ty6rQ7yL_fvUV",
@@ -1972,8 +1944,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "tH04omhNRk7Fog8ktigdk",
@@ -2013,8 +1984,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "8fkLlgNJBPvawvrAA2iaN",
@@ -2049,8 +2019,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "AEMApSjjjyHwqH0G3N1nq",
@@ -2091,8 +2060,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "gEkbpTGOjygbcAxuIr-T7",
@@ -2163,8 +2131,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "yx3ss-NNcYlycTRrHCWgg",
@@ -2199,8 +2166,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "ejniQhvIF-Bz6gbaU6c2F",
@@ -2263,8 +2229,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "p_v2XypdXObDWOcyu2zst",
@@ -2327,8 +2292,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "K8miYIqqP2muNjFnxmPeq",
@@ -2379,8 +2343,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "3aBu7TnTYvdoBaJmxdCzX",
@@ -2421,8 +2384,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "AtYuI5PCDRrMkGvGs6MhG",
@@ -2456,8 +2418,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "rDPCDmb-HkDnk4LGPQA59",
@@ -2526,8 +2487,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "OOWp4LZtb6drvmO-qGi0R",
@@ -2596,8 +2556,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "CdVmCfK7SeZZsi3wQWDqu",
@@ -2656,8 +2615,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "0OrZFp0t2IbJBe2DJDG__",
@@ -2710,8 +2668,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "itQ0YUhBew7jr2qIhtXzV",
@@ -2751,8 +2708,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "MRY2jZK3sR422iA9Eg4Su",
@@ -2798,8 +2754,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "Yw3pc6agdY0EkPht8L6DV",
@@ -2839,8 +2794,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "qWsLp1sJkwsn0qcEP8EeG",
@@ -2898,8 +2852,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "iVTOAiGdRN3bmsWIJwa6t",
@@ -2938,8 +2891,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "S0dRqHieNyYYo_Y2CJxVi",
@@ -2980,8 +2932,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "3omBSiHvVS83DWfaI21kV",
@@ -3046,8 +2997,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "Qc8RypxGNuDdzaAkNoQ-T",
@@ -3106,8 +3056,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "q0aTo2ay_SCBPN3j4wIyB",
@@ -3172,8 +3121,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "QNTFRp-n-TPr7edqvtdOj",
@@ -3214,8 +3162,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "dpheykrS9oMK6BbKeyUbE",
@@ -3262,8 +3209,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "Zj3fLP7bK-auMEQMLC8Ao",
@@ -3316,8 +3262,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "OFcNuZ2bJPxocwiLPkd2c",
@@ -3358,8 +3303,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "rsAVvBhvkzD7FN43QBrFc",
@@ -3423,8 +3367,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "gjQBgVc6hyeZMGYXNnIAO",
@@ -3482,8 +3425,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "v921u8iPTqRZctU6tsyax",
@@ -3530,8 +3472,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "b6xTzSVDxo2IqZMgJ_9Ne",
@@ -3590,8 +3531,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "v_LqGOOSmuuHympV28BtS",
@@ -3644,8 +3584,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "gLW58cdZrz7UD9D50HCSV",
@@ -3692,8 +3631,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "FmUwvWNiReASmpsttFYJw",
@@ -3728,8 +3666,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "EEFHdAhwQoa5YObiDLgqB",
@@ -3763,8 +3700,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "xXNCJq6UUo0J8KGsucanl",
@@ -3811,8 +3747,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "r1eQ9ut9pgrO2cAlEcEXn",
@@ -3877,8 +3812,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "qelcAudCOoryBU26FXP3E",
@@ -3949,8 +3883,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "g6vWP_r_7hWC-Em-8AhBx",
@@ -3991,8 +3924,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "IcG0xYhU1-TAuiCxlBHX5",
@@ -4051,8 +3983,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "0SJrM58GmOKqZe4ByL3mw",
@@ -4123,8 +4054,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "4jKoac06celHfkVz5_XjX",
@@ -4183,8 +4113,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "zZ4eRS07TMgnbOLC2XFSr",
@@ -4254,8 +4183,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "GTKf7uplbGIjF5MJg21mE",
@@ -4290,8 +4218,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "kqEzNUM_6Jas1X6LnL3Mv",
@@ -4332,8 +4259,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "qPXewPUgFP4tXYHo7VC1m",
@@ -4386,8 +4312,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "pDpKdvtLdjxKt2hEO8oeZ",
@@ -4446,8 +4371,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "DypI4WLTN_AE65UJsazZ4",
@@ -4494,8 +4418,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "RX_FlOJOU6pBTn6KmK3v2",
@@ -4528,8 +4451,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "SLjAlbULjG4U8Sxnaylp4",
@@ -4594,8 +4516,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "w74Rd8DgqKwWISq7juLss",
@@ -4636,8 +4557,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "sc6BN6yziz7wCpA3nvUih",
@@ -4665,8 +4585,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "Wuif4L7Z9t6JLwIBiUycI",
@@ -4707,8 +4626,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "qSY4xVp5zCxuTAQQ4YDQv",
@@ -4755,8 +4673,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "NyrXozv-qrc_OT57U5Q1j",
@@ -4809,8 +4726,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "k9E6egn_EN0q_CtbQ5AXO",
@@ -4857,8 +4773,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "tNzR8u0ZYCZegaSqV-mfY",
@@ -4905,8 +4820,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "B5Z_CP70DMuSXXJKh_UzN",
@@ -4964,8 +4878,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "ktvl_LFuwe0oiDSsh9QW5",
@@ -5018,8 +4931,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "FNw5sKk2NMu4odAT0wiQm",
@@ -5054,8 +4966,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "c9wN2MD_r1O6OnLn5K48i",
@@ -5114,8 +5025,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "FZz4k1DivxPfwnDc0deFf",
@@ -5143,8 +5053,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "iKtYAtioRRD7WDLLJg2oO",
@@ -5208,8 +5117,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "tnyNCMw0opthqnGVfLGSt",
@@ -5267,8 +5175,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "ZT6bLTCtKk91-ZD9OsT-e",
@@ -5297,8 +5204,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "CZ6SCyIBzsiZbBLxVENe5",
@@ -5344,8 +5250,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "_2wH3ihle-birIJKZilf_",
@@ -5398,8 +5303,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "hPgbMEcZPRO5P4nIvOMBC",
@@ -5427,8 +5331,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "eyVpXdPtgukpd7oM2yK5x",
@@ -5486,8 +5389,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "AJgNoCyPrhkjyHdSuSCK0",
@@ -5540,8 +5442,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "PRaWSeM9X0Y5TkTBdIc38",
@@ -5576,8 +5477,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "DV7ySOLoGhf7XQ3EUgPyh",
@@ -5659,8 +5559,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "cpvm8P-P_KYYzEsBqkSRY",
@@ -5700,8 +5599,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "Rn3GG_7OTSHAodvTBTC7p",
@@ -5766,8 +5664,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "Dc_3xY6oT7W6_osTMFNzG",
@@ -5819,8 +5716,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "7eYtcUy9bWVr0dZDlR-Gk",
@@ -5867,8 +5763,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "7DIoUyveRcCTFVGonqiQn",
@@ -5937,8 +5832,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "lQVcWawz9XDQRZ9T12XM2",
@@ -5984,8 +5878,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "qLGdDecyWAUcphRRX9HX_",
@@ -6038,8 +5931,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "MgvTNNdh65VUgVbPjccVg",
@@ -6074,8 +5966,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "F8IYZFxtCjYse1XBJznG8",
@@ -6128,8 +6019,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "RUYPJYN-ZcqkSa8qKti_z",
@@ -6164,8 +6054,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "_mVU0BB4DAwddEu84X7CW",
@@ -6212,8 +6101,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "PhIPwiAjVCyheftLIogXo",
@@ -6241,8 +6129,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "9_HeSwO0w9uZ-l9rQc-Cq",
@@ -6289,8 +6176,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "KKK63CLOZIAEfensaoAsV",
@@ -6331,8 +6217,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "hGguttaQGJIAKjNJsOZyU",
@@ -6391,8 +6276,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "UP71c9dPBZvuS5EH0MuAT",
@@ -6433,8 +6317,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "FNa3vwXW-UAcC1G3bm7zO",
@@ -6469,8 +6352,7 @@
           "userId": "rLHeCXxFvVyUYD0gyfFVN",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "pEsghcCO0R4PlYIq4pzKH",
@@ -6510,8 +6392,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "uDrVGH6lRHbLNFdAv9DuQ",
@@ -6570,8 +6451,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "x6LEFCBKwTSEqtdT49ezf",
@@ -6622,8 +6502,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "VqrYL6hGyttyU0QeqeBeP",
@@ -6669,8 +6548,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "tNa8OskD7YtOk53FauTEh",
@@ -6722,8 +6600,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "UKFU41hyXwBHkUickPCWS",
@@ -6770,8 +6647,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "XWVBulTBosyiP2cayO8rp",
@@ -6836,8 +6712,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "JjsuKNWvzj1STFEsqTcvg",
@@ -6896,8 +6771,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "eZ9sTeGR1X7-J78yXjxy1",
@@ -6932,8 +6806,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "peyMaPpCOym0U_KdjKGj7",
@@ -6992,8 +6865,7 @@
           "userId": "aYcm82JjDayUH7saD2NKz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "V8VjYyBel63_d6mAu35Ip",
@@ -7064,8 +6936,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "OCl_vneqpy3gvJB5muWFA",
@@ -7106,8 +6977,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "xUjRBMlCfKhXqH61YUOti",
@@ -7160,8 +7030,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "FsTTP0msMBw7oUpbc5qur",
@@ -7207,8 +7076,7 @@
           "userId": "RYC1FpLol3onriOBZSjLv",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "ucLMH0p3mq6dIby_i_ylj",
@@ -7272,8 +7140,7 @@
           "userId": "vvxUePrlqsQh2EouNuwsz",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "6Ro0lT285dTX_7vsFt5dO",
@@ -7314,8 +7181,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "oYTJiCEZW3rgk2cIehRKb",
@@ -7362,8 +7228,7 @@
           "userId": "NfWH7w9oTOwwcavZNO_x0",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "DezNAwKH8HLjlQLrqRTs1",
@@ -7397,8 +7262,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "e03QSlU2foq1eLHQBVwAU",
@@ -7475,8 +7339,7 @@
           "userId": "91QwlyO420OEI7uf3qp55",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "jgrh6W96W87-F9OmPEROb",
@@ -7528,8 +7391,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "id": "EdcTdMKOZh70ZzJNUsflX",
@@ -7600,8 +7462,7 @@
           "userId": "PrXLwhoBB-j6C5nocqY_7",
           "ratings": []
         }
-      ],
-      "ratings": []
+      ]
     },
     {
       "title": "The Devil All the Time",
@@ -7655,7 +7516,7 @@
       "id": "vvxUePrlqsQh2EouNuwsz",
       "avatarUrl": "https://static.vecteezy.com/system/resources/thumbnails/002/454/150/small/profile-man-shirtless-free-vector.jpg",
       "email": "justas.tirevicius@gmail.com",
-      "username": "Justas admin",
+      "username": "Justas adminas",
       "password": "$2a$10$Um1tj3fBwckQJSuRi5WDKefLWbTy8JkTGFEqAjGMWfRkd6fnG41ZO",
       "role": "admin",
       "isRestricted": false
@@ -7667,13 +7528,13 @@
       "username": "Justas user",
       "password": "$2a$10$0nZ3OlRqFs5YrLzVhr1lPORt6QK50wIGZsz/.DYY3aOAGtlHDjMdy",
       "role": "user",
-      "isRestricted": false
+      "isRestricted": "false"
     },
     {
       "id": "91QwlyO420OEI7uf3qp55",
       "email": "fake@email.com",
-      "username": "Dora da Explora",
-      "password": "$2a$10$qraxOWBX0AIRAxbGC5XobuA4mqq8rx3DpxUxNnmQ8LKIyT7KuoJoq",
+      "username": "Dora Da Explora",
+      "password": "$2a$10$MN6bIEJ8tMt1Qpfl7rmlBedZeYybU4FvZPHrNlkzpITVa0WNL0yui",
       "avatarUrl": "https://nextluxury.com/wp-content/uploads/funny-profile-pictures-2.jpg",
       "isRestricted": false,
       "role": "user"

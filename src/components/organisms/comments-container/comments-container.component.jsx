@@ -1,17 +1,15 @@
-import { useContext, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useSelector } from 'react-redux'
 import { MovieComment } from '../../'
 import { StyledCommentsContainer } from './comments-container.styles'
-import UsersContext from '../../../contexts/users/users.context'
 
 const CommentsContainer = ({ movie }) => {
   const [filteredComments, setFilteredComments] = useState([])
-  const {
-    users: { users },
-  } = useContext(UsersContext)
+  const { users } = useSelector((state) => state.users)
 
   useEffect(() => {
     setFilteredComments(
-      movie?.comments?.filter((comment) => {
+      movie.comments?.filter((comment) => {
         const commentCreator = users?.find((user) => user.id === comment.userId)
         if (commentCreator?.isRestricted) return false
         return true

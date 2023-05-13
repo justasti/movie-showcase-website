@@ -1,24 +1,22 @@
 import { useContext, useState, useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { useParams, Navigate, useNavigate } from 'react-router-dom'
 import { Form, InputGroup, Button, FormError } from '../../../'
 import { StyledMain } from './edit-profile.styles'
 import { useFormik } from 'formik'
 import { compareSync } from 'bcryptjs'
 import * as yup from 'yup'
-import UserContext from '../../../../contexts/users/users.context'
 import ThemeContext from '../../../../contexts/theme/theme.context'
-import { USERS_ACTION_TYPES } from '../../../../contexts/users/users.actions'
+import { editUser } from '../../../../features/movies/users.slice'
 
 const EditProfile = () => {
   const [user, setUser] = useState(null)
   const [incorrectPassword, setIncorrectPassword] = useState(false)
   const { id } = useParams()
-  const {
-    users: { users, authUser },
-    dispatchUsers,
-  } = useContext(UserContext)
+  const { users, authUser } = useSelector((state) => state.users)
   const { theme } = useContext(ThemeContext)
   const navigate = useNavigate()
+  const dispatch = useDispatch()
 
   const initialValues = {
     email: user ? user.email : '',
@@ -78,7 +76,7 @@ const EditProfile = () => {
           avatarUrl: values.avatarUrl,
         }
         if (values.newPassword) updatedUser.password = values.newPassword
-        dispatchUsers({ type: USERS_ACTION_TYPES.EDIT, user: updatedUser })
+        dispatch(editUser(updatedUser))
         navigate(-1)
       }
     },

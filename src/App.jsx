@@ -1,8 +1,8 @@
-import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
-import { Layout } from './layout.styles'
 import { useContext, useEffect } from 'react'
-import { USERS_ACTION_TYPES } from './contexts/users/users.actions'
-import { USERS_API_URL } from './contexts/users/users.reducer'
+import { useDispatch, useSelector } from 'react-redux'
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
+import { fetchMovies } from './features/movies/movies.slice'
+import { fetchUsers } from './features/movies/users.slice'
 import {
   Header,
   Footer,
@@ -20,25 +20,18 @@ import {
   UsersManagementPage,
   EditProfile,
 } from './components/'
-import UsersContext from './contexts/users/users.context'
+import { Layout } from './layout.styles'
 import ThemeContext from './contexts/theme/theme.context'
-import { useDispatch } from 'react-redux'
-import { fetchMovies } from './features/movies/movies.slice'
 
 function App() {
   const dispatch = useDispatch()
   const location = useLocation()
-  const {
-    users: { authUser },
-    dispatchUsers,
-  } = useContext(UsersContext)
+  const { authUser } = useSelector((state) => state.users)
   const { theme } = useContext(ThemeContext)
 
   useEffect(() => {
     dispatch(fetchMovies())
-    fetch(USERS_API_URL)
-      .then((res) => res.json())
-      .then((users) => dispatchUsers({ type: USERS_ACTION_TYPES.GET, users }))
+    dispatch(fetchUsers())
   }, [])
 
   return (

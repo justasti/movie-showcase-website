@@ -4,14 +4,11 @@ import { Link } from 'react-router-dom'
 import { MovieCard, SkeletonLoader, Input } from '../../'
 import { StyledMain, Movies } from './movies-page.styles'
 import ThemeContext from '../../../contexts/theme/theme.context'
-import UsersContext from '../../../contexts/users/users.context'
 
 const MoviesPage = () => {
   const [filterPhrase, setFilterPhrase] = useState('')
   const { movies } = useSelector((state) => state.movies)
-  const {
-    users: { authUser, users },
-  } = useContext(UsersContext)
+  const { authUser, users } = useSelector((state) => state.users)
   const { theme } = useContext(ThemeContext)
 
   const filterMovies = (e) => {

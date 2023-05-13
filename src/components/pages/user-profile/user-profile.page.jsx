@@ -5,7 +5,6 @@ import { SkeletonLoader, Button, MovieCard } from '../../'
 import { StyledMain, UserProfileHeader } from './user-profile.styles'
 import { Movies } from '../movies/movies-page.styles'
 import ThemeContext from '../../../contexts/theme/theme.context'
-import UsersContext from '../../../contexts/users/users.context'
 
 const UserProfilePage = () => {
   const [user, setUser] = useState(null)
@@ -13,9 +12,7 @@ const UserProfilePage = () => {
   const { movies } = useSelector((state) => state.movies)
   const { theme } = useContext(ThemeContext)
   const { id } = useParams()
-  const {
-    users: { users, authUser },
-  } = useContext(UsersContext)
+  const { users, authUser } = useSelector((state) => state.users)
 
   const filteredMovies = movies.filter((movie) => movie.createdBy === id)
 

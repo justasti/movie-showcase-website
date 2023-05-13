@@ -1,13 +1,12 @@
 import { useContext } from 'react'
+import { useSelector } from 'react-redux'
 import { Button } from '../../'
 import { StyledCommentBox } from './comment-box.styles'
 import ThemeContext from '../../../contexts/theme/theme.context'
-import UsersContext from '../../../contexts/users/users.context'
+
 const CommentBox = ({ children, onSubmit, ...otherProps }) => {
   const { theme } = useContext(ThemeContext)
-  const {
-    users: { authUser },
-  } = useContext(UsersContext)
+  const { authUser } = useSelector((state) => state.users)
   return (
     <StyledCommentBox id='new-comment' theme={theme} onSubmit={onSubmit}>
       <textarea {...otherProps} placeholder='What are your thoughts?'>

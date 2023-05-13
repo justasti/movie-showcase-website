@@ -1,25 +1,26 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { useContext } from 'react'
 import { ButtonsContainer } from './user-info.styles'
-import { USERS_ACTION_TYPES } from '../../../contexts/users/users.actions'
 import { DropdownMenu, Button } from '../../'
-import UsersContext from '../../../contexts/users/users.context'
 import ThemeContext from '../../../contexts/theme/theme.context'
+import { useDispatch, useSelector } from 'react-redux'
+import { logoutUser } from '../../../features/movies/users.slice'
 
 const UserInfo = () => {
-  const { users, dispatchUsers } = useContext(UsersContext)
+  const dispatch = useDispatch()
+  const { users, authUser } = useSelector((state) => state.users)
   const { theme } = useContext(ThemeContext)
   const navigate = useNavigate()
 
-  return users.authenticated ? (
-    <DropdownMenu userPic={users.authUser.avatarUrl} theme={theme}>
-      <p>{users.authUser.username}</p>
-      <Link to={`/users/${users.authUser.id}`}>
+  return authUser ? (
+    <DropdownMenu userPic={authUser.avatarUrl} theme={theme}>
+      <p>{authUser.username}</p>
+      <Link to={`/users/${authUser.id}`}>
         <li>
           <i className='fas fa-cog'></i>Settings
         </li>
       </Link>
-      {users.authUser.role === 'admin' && (
+      {authUser.role === 'admin' && (
         <Link to='/users/manage'>
           <li>
             <i className='fas fa-user-cog'></i>Users
@@ -28,7 +29,7 @@ const UserInfo = () => {
       )}
       <li
         onClick={() => {
-          dispatchUsers({ type: USERS_ACTION_TYPES.LOGOUT })
+          dispatch(logoutUser())
           navigate('/')
         }}
       >

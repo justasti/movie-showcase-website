@@ -1,14 +1,15 @@
 import { useContext } from 'react'
+import { useDispatch } from 'react-redux'
+import { blockUser } from '../../../features/movies/users.slice'
 import { Link } from 'react-router-dom'
 import { StyledUserCard } from './user-card.styles'
-import { USERS_ACTION_TYPES } from '../../../contexts/users/users.actions'
 import { Button } from '../../'
 import ThemeContext from '../../../contexts/theme/theme.context'
-import UsersContext from '../../../contexts/users/users.context'
 
 const UserCard = ({ user }) => {
+  const dispatch = useDispatch()
   const { theme } = useContext(ThemeContext)
-  const { dispatchUsers } = useContext(UsersContext)
+
   return (
     <StyledUserCard theme={theme}>
       <div className='user_info'>
@@ -27,9 +28,7 @@ const UserCard = ({ user }) => {
         <Button
           $block={!user.isRestricted}
           $unblock={user.isRestricted}
-          onClick={() =>
-            dispatchUsers({ type: USERS_ACTION_TYPES.BLOCK, user })
-          }
+          onClick={() => dispatch(blockUser(user))}
         >
           {user.isRestricted ? 'Unblock User' : 'Block User'}
         </Button>

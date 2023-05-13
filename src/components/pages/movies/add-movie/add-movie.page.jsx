@@ -1,15 +1,14 @@
 import { useState, useContext, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate, useParams } from 'react-router-dom'
-import { Form, InputGroup, Button } from '../../../'
-import { nanoid } from 'nanoid'
-import { StyledMain } from './add-movie-page.styles'
-import ThemeContext from '../../../../contexts/theme/theme.context'
-import UsersContext from '../../../../contexts/users/users.context'
 import {
   addNewMovie,
   editMovie,
 } from '../../../../features/movies/movies.slice'
+import { Form, InputGroup, Button } from '../../../'
+import { nanoid } from 'nanoid'
+import { StyledMain } from './add-movie-page.styles'
+import ThemeContext from '../../../../contexts/theme/theme.context'
 
 const AddMoviePage = () => {
   const navigate = useNavigate()
@@ -25,11 +24,9 @@ const AddMoviePage = () => {
     posterUrl: '',
   })
   const { id } = useParams()
-  const {
-    users: { authUser },
-  } = useContext(UsersContext)
-  const { theme } = useContext(ThemeContext)
+  const { authUser } = useSelector((state) => state.users)
   const { movies } = useSelector((state) => state.movies)
+  const { theme } = useContext(ThemeContext)
 
   useEffect(() => {
     if (id) {
